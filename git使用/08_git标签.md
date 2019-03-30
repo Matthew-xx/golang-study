@@ -46,7 +46,6 @@ git可以给历史中的某一个提交打上标签，标识其重要的里程�
 push到远程仓库时，默认不会传送标签，可以手动传送
 
     git push origin v1.1.1
-注意这个操作不仅会传送标签，也会把上次commit的所有内容一同push。
 
 ### 共享全部
 
@@ -63,6 +62,8 @@ push到远程仓库时，默认不会传送标签，可以手动传送
 ### 删除远程标签
 
     git push origin :refs/tags/v1.1.1
+    或者
+    git push origin --delete v1.1.1
 
 ## 检出标签
 
