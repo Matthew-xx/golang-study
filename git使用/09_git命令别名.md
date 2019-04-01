@@ -14,8 +14,8 @@
 ### 撤销暂存
 
 > 把文件从暂存区撤回到未暂存状态
->`git reset HEAD <file>`
-> ——06_一些常见的撤销操作
+
+        git reset HEAD <file>
 
 可以直接修改此命令为unstage
 
