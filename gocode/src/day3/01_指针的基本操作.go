@@ -20,11 +20,8 @@ func main() {
 	fmt.Printf("p是%v,a的地址是%v,p是%v\n", p, &a, q)
 	fmt.Printf("p保存的内容是%v,q保存的内容是%v\n", *p, *q)
 	//一个指针指向另一个指针（一个地址指向另一个地址）
-	//错误写法：
-	//var m= **int 指针的指针类型应该为**int
-	//m=p  相当于把
-	//正确写法：
-	var m **int
+
+	var m **int//指针的指针类型应该为**int
 	m = &p
 	fmt.Println(*(*m))
 	fmt.Println(m)
