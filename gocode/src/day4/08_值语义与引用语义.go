@@ -21,7 +21,7 @@ func (p Person) setPerson1(name string, age int) {
 func (p *Person) setPerson2(name string, age int) {
 	p.name = name
 	p.age = age
-	fmt.Println(p)
+	fmt.Println(*p)
 }
 func main() {
 	var p1 Person
@@ -29,6 +29,6 @@ func main() {
 	fmt.Println(p1)
 	var p2 *Person   //或简写p2:= new(Person)
 	p2 = new(Person) //分配空间
-	p2.setPerson2("老张", 60)
-	fmt.Println(p2)
+	p2.setPerson2("老张", 60)//等于(*p2).setPerson2("老张", 60)
+	fmt.Println(*p2)
 }

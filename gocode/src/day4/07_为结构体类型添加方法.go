@@ -16,8 +16,11 @@ func (p Person) printinfo() {
 //接收者类型不一样，就算不同的方法（即便同名），不算重载方法
 //不支持重载方法，即接受者类型、方法名相同，但参数列表不同的方法才算重载，这里不支持
 
-//type personpointer  *Person
-//func (p perisonpointer) setPerson(name string, age int)
+// type personpointer  *Person
+// func (p personpointer) setPerson(name string, age int) {
+// 	p.age = age
+// 	p.name = name
+// }
 //上面是错误的
 
 //赋值函数

@@ -26,8 +26,8 @@ func main() {
 	p := &Person{"mike", 12}
 	//类型的方法集是指可以被该类型的值调用的所有方法的集合
 	//用实例value和pointer调用方法（含匿名字段）不受方法集的约束，总能找到全部方法，自动转换类型
-	p.setPersonPointer()
-	(*p).setPersonPointer()
-	p.setPersonValue()
-	(*p).setPersonValue()
+	p.setPersonPointer("老张",60)
+	(*p).setPersonPointer("老张",60)
+	p.setPersonValue("老张",60)
+	(*p).setPersonValue("老张",60)
 }

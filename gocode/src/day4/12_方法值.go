@@ -19,5 +19,8 @@ func main() {
 	f := p.PrintInfo               //把方法入口地址赋值给一个变量，调用时隐藏了接收者，
 	f()                            //利用变量去调用
 	fmt.Printf("\ntype is %+T", f) //查看值类型type is func()
-
+	//不使用自动推导类型，直接声明一个函数类型变量。
+	var f1 func()
+	f1=p.PrintInfo
+	f1()
 }

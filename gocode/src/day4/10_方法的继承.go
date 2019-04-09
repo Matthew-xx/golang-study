@@ -21,4 +21,5 @@ type Student struct {
 func main() {
 	s := Student{Person{"mike", 'm', 18}, 123}
 	s.PrintInfo()
+	s.Person.PrintInfo()
 }
