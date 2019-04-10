@@ -5,22 +5,17 @@ import (
 	"fmt"
 )
 
-func MyDiv(a, b int) (err error, r int) {
+// MyDiv 除法函数
+func MyDiv(a, b int) (result int, err error) {
 	if b == 0 {
-		return errors.New("除数不能为0"), 0
+		err = errors.New("除数不能为0")
 	} else {
-		return nil, a / b
+		result = a / b
 	}
-	// if b == 0 {
-	// 	err = errors.New("除数不能为0")
-	// } else {
-	// 	result = a / b
-	// }
-	// return
-
+	return
 }
 func main() {
-	err, result := MyDiv(5, 0)
+	result, err := MyDiv(5, 0)
 	if err != nil {
 		fmt.Println(err)
 	} else {

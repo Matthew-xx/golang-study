@@ -16,9 +16,9 @@ func testB(x int) {
 	// defer func() {
 	// 	recover()
 	// }() //调用一下
-	// defer func() {
-	// 	fmt.Println(recover())
-	// }() //调用一下
+	defer func() {
+		fmt.Println(recover())
+	}() //这样不好，没panic也执行输出nil
 	defer func() {
 		if err := recover(); err != nil {
 			//fmt.Println(recover())经典错误：这样相当于重新调用一次recover()
@@ -36,7 +36,7 @@ func testC() {
 }
 func main() {
 	testA()
-	testB(10)
+	testB(0)
 	testC()
 	// defer testA()
 	// defer testB()

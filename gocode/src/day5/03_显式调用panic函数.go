@@ -16,10 +16,14 @@ func testC() {
 	fmt.Println("ccccccccccccccccc")
 }
 func main() {
+	// testA()
+	// testB()
+	// testC()
+	defer testA()
+	defer testB()
+	defer testC()
 	testA()
 	testB()
 	testC()
-	// defer testA()
-	// defer testB()
-	// defer testC()
+	defer testC()
 }
