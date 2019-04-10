@@ -10,7 +10,6 @@ func test() {
 		fmt.Println("this is test goroutine")
 		time.Sleep(time.Second)
 	}
-
 }
 func main() {
 	go test() //由于后面是for死循环，放前面才会有机会执行
