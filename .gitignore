@@ -12,5 +12,4 @@
 *.out
 
 # 忽略vscode的配置目录
-
-.vascode/
+.vscode/
