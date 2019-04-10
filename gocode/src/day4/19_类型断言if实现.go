@@ -12,6 +12,7 @@ func main() {
 	i[0] = 1
 	i[1] = "mike"
 	i[2] = Student{"mike", 666}
+	//fmt.Println(i[0].(int))
 	//类型查询，类型断言s
 	for index, data := range i {
 		if value, ok := data.(int); ok { //第一个返回断言出来的变量内容，第二个返回断言此类型结果真假

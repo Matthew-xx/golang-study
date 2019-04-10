@@ -12,6 +12,7 @@ func main() {
 	i[0] = 1
 	i[1] = "mike"
 	i[2] = Student{"mike", 666}
+	
 	//类型查询，类型断言
 	for index, data := range i {
 		switch value := data.(type) { //可能是一种特殊用法 value为断言出来的内容本身，type是断言类型
