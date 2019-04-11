@@ -17,16 +17,16 @@ func main() {
 	}()
 	//更简单的写法：直接range ch 迭代（不是ch<-），可循环每次读出数据，并且管道被关闭后，自动识别
 
-	for num := range ch {
-		fmt.Printf("主协程取出数据[%d]管道<——，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
-	}
+	// for num := range ch {
+	// 	fmt.Printf("主协程取出数据[%d]管道<——，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
+	// }
 
 	for {
 		//光关闭还不行，还要告诉主协程关闭了，从而让它执行别的动作
 		if num, ok := <-ch; ok { //迭代管道，两个返回值：一个是取出的内容，另一个是关闭与否的判断
 			fmt.Printf("主协程取出数据[%d]管道<——，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
 		} else {
-			fmt.Println("管道已关闭，循环中断吧")
+			fmt.Println("管道已关闭，已关闭的管道永远取出：", num)
 			break
 		}
 

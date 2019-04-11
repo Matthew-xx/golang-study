@@ -5,6 +5,7 @@ import (
 	"time"
 )
 
+//select
 func main() {
 	ch := make(chan int)
 	quite := make(chan bool)
