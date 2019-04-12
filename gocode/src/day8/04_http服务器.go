@@ -22,4 +22,10 @@ func main() {
 	if err != nil {
 		return
 	}
+	req, err := http.NewRequest("GET", "http://example.com", nil)
+    // ...
+    req.Header.Add("User-Agent", "Gobook Custom User-Agent")
+    // ...
+    client := &http.Client{ //... }
+    resp, err := client.Do(req)
 }
