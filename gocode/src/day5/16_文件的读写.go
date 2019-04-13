@@ -39,19 +39,21 @@ func ReadFile(path string) {
 		fmt.Println("err=", err)
 	}
 	//var b []byte 错误，创建一个字节切片存储内容不是这么创建的
-	b := make([]byte, 1024*4) //正确方法。同时指定合适的大小
-	n, err := f.Read(b)
-	if err != nil {
-		if err == io.EOF {
-			fmt.Println("文件读取完毕")
-			return
-		} else {
-			fmt.Println("err=", err)
+	b := make([]byte, 5) //正确方法。同时指定合适的大小
+	for {
+		n, err := f.Read(b)
+		if err != nil {
+			if err == io.EOF {
+				fmt.Println("文件读取完毕")
+				return
+			} else {
+				fmt.Println("err=", err)
+				return
+			}
 		}
-
+		fmt.Println("本次读取字符数：", n)
+		fmt.Println(string(b[:n])) //注意用了多少，取多少。否则会有一堆空
 	}
-	fmt.Println("n=", n)
-	fmt.Println(string(b[:n])) //注意用了多少，取多少。否则会有一堆空
 }
 
 //一行一行读取，需用到带缓冲的IO 即bufio
@@ -88,7 +90,7 @@ func ReadFileLine(path string) {
 }
 func main() {
 
-	WriteFile("./demo.txt")
-	//ReadFile("./demo.txt")
+	//WriteFile("./demo.txt")
+	// ReadFile("./demo.txt")
 	ReadFileLine("./demo.txt")
 }
