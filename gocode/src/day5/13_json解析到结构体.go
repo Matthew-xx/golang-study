@@ -26,15 +26,15 @@ func main() {
                 "C"
         ]
 	}`
-	//var it IT
-	it := new(IT)
+	var it IT
+	// it := new(IT)
 	fmt.Printf("it type is %T\n", it)
 	//结构体不是引用类型，其他函数修改其内容时，需要取指针
 	//err := json.Unmarshal(byte(jsonbuf), it)
 	//并不是将字符串转换为字节，而是字节切片
-	err := json.Unmarshal([]byte(jsonbuf), it) //传递指针进去，而且必须是指针
+	err := json.Unmarshal([]byte(jsonbuf), &it) //传递指针进去，而且必须是指针
 	if err != nil {
 		fmt.Println(err)
 	}
-	fmt.Printf("%+v", *it) //取指针内容
+	fmt.Printf("%+v", it)
 }
