@@ -14,6 +14,8 @@
 
 通过yum或者aptget类的命令，从提供软件源的站点中，获取想要的已经针对本平台编译好的软件。优点：安装简单方便快捷，缺点是安装受限，可选项少。
 
+    apt-get install redis-server
+
 安装完成后，安装文件会根据包管理者的配置散放在系统各处。通常按照linux系统文件夹的定义安排
 
 ### linux常见文件夹
@@ -34,7 +36,7 @@ lib文件 /usr/lib
     sudo apt-get update
     sudo apt-get install redis-server
 
-安装成功后，默认以守护进程形式自动开启
+安装成功后，默认以服务形式自动开启
 
 ### 本地连接redis
 
