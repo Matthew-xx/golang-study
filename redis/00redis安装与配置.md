@@ -24,6 +24,7 @@
 可执行文件 /usr/bin
 配置文件 /etc
 lib文件 /usr/lib
+竟然变动的文件，如日志，/var
 
 ## ubuntu下redis安装
 
@@ -51,7 +52,7 @@ lib文件 /usr/lib
 
 启动
 
-    service redis-server start [ 配置文件路径：通常为/etc/redis/redis.conf ]
+    service redis-server start [ 默认加载配置文件路径：通常为/etc/redis/redis.conf ]
 
 关闭
 
@@ -61,7 +62,7 @@ lib文件 /usr/lib
 
 启动： 找到可执行文件直接运行
 
-    ./redis-server [ 配置文件路径：通常为/etc/redis/redis.conf ]
+    ./redis-server [ 手动加载配置文件路径：通常为/etc/redis/redis.conf ]
 此种运行方式的特点是，可以被kill杀死进程。
 
 关闭：此种方式只要杀死进程即可关闭
@@ -70,7 +71,6 @@ lib文件 /usr/lib
     进入redis-cli后或者通过客户端传递关闭命令：
     shutdown
 注意以上两种方式，只有在redis以进程形式运行时才有效 。若在redis以服务运行的情况使用，结果会让进程以新pid继续运行。
-
 
 #### 守护进程的启动与关闭
 
@@ -88,3 +88,12 @@ bind是指安装redis的主机，允许通过该主机连接的的网络端口�
 #### 配置主从，集群
 
 后面具体讲。
+
+#### 特别注意！
+
+为了能连接redis
+1. 除了要配置好bind外
+2. 某些低版本需要关闭保护模式：protected-mode值为no
+3. 注意本机系统的防火墙。因为有了云计算平台的安全组策略，完全可以关闭防火墙 
+
+    sudo ufw disable
