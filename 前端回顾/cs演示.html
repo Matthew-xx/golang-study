@@ -56,7 +56,22 @@
             left: 50%;
             margin-left: -151px;
             top:20%;
+            z-index: 9999;
             
+        }
+        .mask{
+            position: fixed;
+            left: 0px;
+            top: 0px;
+            width: 100%;
+            height: 100%;
+            background: black;
+            z-index: 9998;
+            opacity: 0.6;
+            
+        }
+        .pop_con{
+            display: none;
         }
     </style>
 </head>
@@ -72,10 +87,13 @@
 <p class="mycontent">这是文章内容这是文内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容章这是文章内容这是文内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容章这是文章内容这是文内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容这是文章内容章这是文章内容这是文内容这是文章内容这是文章内容这内容这是文章内容这是文章</p>
 </div>
 
-<div class="pop">
-    <h1>弹框标题</h1>
-    <p>弹框的内容</p>
-
+<div class="pop_con" style="display:block">
+    <div class="pop">
+        <h1>弹框标题</h1>
+        <p>弹框的内容</p> 
+    
+    </div>
+    <div class="mask"></div>
 </div>
 </body>
 </html>
