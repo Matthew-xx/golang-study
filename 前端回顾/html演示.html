@@ -5,6 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        .search_con,.keytext,.serach_button{
+            height: 40px;
+            margin: 0px;
+            padding: 0px;
+        }
+        .search_con{
+            width: 600px;           
+            border: 1px solid #0fad10;
+            
+        }
+        .keytext{
+            width: 500px;
+            float: left;
+            font-size: 15px;
+            border:none;
+            text-indent: 10px;
+            /* 去掉选中效果  */
+            outline: none;
+
+        }
+        .serach_button{
+            width: 100px;
+            float: right;
+            background: #0fad10;
+            color: white;
+            font-size: 18px;
+            border:0px;
+        }
+    </style>
 </head>
 <body>
     <h1>一级标题</h1>
@@ -67,5 +97,11 @@
             <td>单元格</td>
         </tr>
     </table>
+    <form action="https://www.baidu.com/s?tn=baidu&">
+        <div class="search_con">
+            <input type="text" class="keytext" placeholder="请输入搜索内容" name="wd" >
+            <input type="submit" class="serach_button" value="搜&nbsp;&nbsp;索">
+        </div>
+    </form>
 </body>
 </html>
