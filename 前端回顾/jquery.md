@@ -39,3 +39,20 @@
     .children()
     .siblings() 反选所有兄弟元素
     .find() 选择某元素内部包含的某一类元素，可使用子孙选择器代替
+
+## 操作css
+
+获取标签，与操作标签属性使用同一个函数
+    $('').css('');
+例如：
+    //获取一个div对象
+    var $div = $("#my_div");
+    //读出这个div的字体大小
+    var size = $div.css("font-size");
+    //设置文字颜色（单属性操作）
+    $div.css("color","red");
+    //设置字体大小和粗细样式（多属性操作）
+    $div.css({"font-size":"30","font-weignt":"bold"});
+
+注意操作css时，如果目标选择器结果是一个集合，则只操作第一个元素。
+
