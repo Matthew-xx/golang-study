@@ -6,6 +6,7 @@ import (
 	"time"
 )
 
+// 数字生成器，生成999～10000的随机整数，利用指针传递传出结果，无需返回值
 func CreatNum(num *int) {
 	rand.Seed(time.Now().UnixNano())
 	for {
@@ -16,12 +17,16 @@ func CreatNum(num *int) {
 	}
 	//fmt.Println(*num)临时显示
 }
+
+// 拆分数字，将4位数字分别拆出，放入切片，利用引用传递传出结果，无需返回值
 func GetNum(s []int, num int) {
 	s[0] = num / 1000
 	s[1] = num % 1000 / 100
 	s[2] = num % 100 / 10
 	s[3] = num % 10
 }
+
+// 开始游戏过程
 func OnGame(s []int) {
 	var a int
 	s2 := make([]int, 4)
@@ -55,10 +60,14 @@ func OnGame(s []int) {
 		} //无else即不符合时什么都不做
 	}
 }
+
+//主函数
 func main() {
 	var num int
+	//数字生成器
 	CreatNum(&num)
 	s := make([]int, 4)
+
 	GetNum(s, num)
 	//fmt.Println(s)
 	OnGame(s)

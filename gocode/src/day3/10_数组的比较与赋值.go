@@ -12,7 +12,7 @@ func main() {
 
 	fmt.Println("a==b?", a == b)
 	fmt.Println("a==c?", a == c)
-	//c := [3]int{1, 2, 3}err 不同类型的数组不能复制
+	//c := [3]int{1, 2, 3}err 不同长度的数组不能复制
 	a = c
 	fmt.Println(a)
 }

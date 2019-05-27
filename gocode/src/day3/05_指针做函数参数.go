@@ -3,8 +3,8 @@ package main
 import "fmt"
 
 func swap(a, b *int) {
-	//a,b=b,a
-	*a, *b = *b, *a
+	a, b = b, a
+	// *a, *b = *b, *a
 	fmt.Printf("swap: a=%d,b=%d\n", *a, *b)
 }
 func main() {
