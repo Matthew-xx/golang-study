@@ -8,7 +8,6 @@ import (
 	"encoding/pem"
 	"errors"
 	"io"
-	"log"
 	"os"
 )
 
@@ -119,30 +118,4 @@ func RSADecrypt(crypherText []byte, filePath string) []byte {
 		panic(err)
 	}
 	return plainText
-}
-
-// RSA使用私钥文件，签名
-func RSASign(filePath string) {
-	file, err := os.Open(filePath)
-	if err != nil {
-		panic(err)
-	}
-	fileInfo, err := file.Stat()
-	if err != nil {
-		panic(err)
-	}
-	b := make([]byte, fileInfo.Size())
-	n, err := file.Read(b)
-	if err != nil && err != io.EOF {
-		panic(err)
-	}
-	file.Close()
-	p, _ := pem.Decode(b[:n])
-	privateKey, err := x509.ParsePKCS1PrivateKey(p.Bytes)
-	if err != nil {
-		panic(err)
-	}
-	log.Println(privateKey)
-	// 使用私钥签名
-	// cipherText,err:=rsa.SignPKCS1v15(rand.Reader,privateKey,)
 }

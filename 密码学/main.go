@@ -32,4 +32,26 @@ func main() {
 	plainText = RSADecrypt(cypherText, "private.pem")
 	log.Println("私钥解密后的明文：", string(plainText))
 
+	// 计算sha256哈希
+	myHash(plainText)
+
+	// 消息验证码
+	hmac := GenerateHmac([]byte("我们结婚吧"), []byte("heliu"))
+	// 校验消息验证码
+	isSuccess := VerifyHmac([]byte("我们结婚吧"), []byte("heliu"), hmac)
+	log.Println(isSuccess)
+
+	// RSA签名
+	RSASign := RSASignature([]byte("我们分手吧"), "private.pem")
+	// 校验签名
+	isSuccess = RSAVerify([]byte("我们分手吧"), RSASign, "public.pem")
+	log.Println(isSuccess)
+
+	// ecdsa密钥对生成
+	GenerateEccKey()
+	// ecc签名
+	r, s := EccSingature([]byte("ecc签名"), "eccPrivate.pem")
+	// ecc 认证
+	isSuccess = EccVerify([]byte("ecc签名"), r, s, "eccPublic.pem")
+	log.Println(isSuccess)
 }
