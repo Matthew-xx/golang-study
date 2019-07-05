@@ -1,2 +1,0 @@
-ÍøÇÅÉèÖÃÈí¼ş
-sudo apt-get install bridge-utils -y
