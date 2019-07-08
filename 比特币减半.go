@@ -37,7 +37,8 @@ func main01() {
 // 挖了1081轮
 
 func main() {
-	// 设置除不尽的情况，保留的小数位数，如果能除尽，则有几位保留几位
+	// 设置除不尽的情况，保留的小数位数，
+	// 注意：如果能除尽，则有几位保留几位！！
 	decimal.DivisionPrecision = 8
 	// 当轮的单块奖励
 	rewardCount := decimal.NewFromFloat(50)
@@ -60,9 +61,10 @@ func main() {
 		count += 1
 		log.Println("轮数：", count, "单块奖励：", rewardCount, "本轮奖励：", currentCircleCount, "累计奖励：", total, "本轮理论结束时间：", bornTime.AddDate(0, 0, count*210000*10/60/24).Format("2006年05月04日"))
 		// 本轮结束，下一轮奖励减半
-		// 比特币使用了精度后的小数位舍去的方式，这里利用向下取整，实现同样效果。先扩大到精度倍数，在向下取整，再缩回精度。
+		// 比特币使用了精度后的小数位舍去的方式，这里利用向下取整，实现同样效果。
+		// 先扩大到精度倍数，在向下取整，再缩回精度。
 		rewardCount = rewardCount.Mul(decimal.NewFromFloat(100000000)).Div(decimal.NewFromFloat(2)).Floor().Div(decimal.NewFromFloat(100000000))
-		// 循环结束，判断是否开始下一轮
+		// 本轮循环结束，判断是否开始下一轮
 	}
 	fmt.Print("比特币发行总量:", total, "\n挖完时间：", count*210000*10/60/24/365+2008, "\n挖了", count, "轮")
 }
