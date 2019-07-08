@@ -1,0 +1,827 @@
+{
+    "root": {
+        "data": {
+            "id": "59j07ra93fbjp6p6gc5i28egds",
+            "text": "Beego框架",
+            "created": 1562559165608
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "7tvba8v3o5234edkps24rp9q6c",
+                    "text": "beego的运行流程",
+                    "created": 1562559165608
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "3a334m71hdhp1k3tmkeiira4gh",
+                    "text": "MVC",
+                    "created": 1562559165608
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "2afpcjbvlttijl62flsjmge80m",
+                            "text": "Model",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1j817od8fgu4pc0stttg96ov0q",
+                                    "text": "作用：操作数据",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3bb137uetbg248o4kaffv8ippd",
+                            "text": "View",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4s3db7qlrr6kev3d8egv4mtb5o",
+                                    "text": "循环",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "63mcg8oa98ck4765vuc4t4mfkp",
+                                            "text": "range  $index ,$val  := .articles    {{end}}",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "3eqplcrbnuatuj17f1166hc107",
+                                            "text": "range    .articles          直接获取属性",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "165au264hslelnovip09r1itd0",
+                                            "text": "循环中要获取控制器传递的数据需要加$",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "191ue6gk9qei8qq7b2otjaah08",
+                                    "text": "判断",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "2sns2s07q3avij5atk3g67oupi",
+                                            "text": "{{if   compare  }}  {{else}}   {{end}]",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "3vv7ki831dfpaukp96gcfamg8n",
+                                    "text": "视图函数",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "52ld1nbop6f7sb632betce10qs",
+                                            "text": "在后台定义函数",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "6na2k24kqlqqk40lek6f27jiq0",
+                                            "text": "在s视图中指定函数名",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "18uq9kbk96seoiuv3hvsudck69",
+                                            "text": "在beego.Run之前映射后台和视图函数",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "6b38u63f41qhmlkgkfbomqlguf",
+                                                    "text": "AddFuncMap",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "4jrupllg9go5cmpqs96qelpffh",
+                                                            "text": ".pageIndex | prePage",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "5a77fm701hlhqbe4f87pnb13e0",
+                                                            "text": "nextPage  .pageInex   ,pageCount",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3t3hd3gru9i8h4aoqe9vhjqkkk",
+                            "text": "Controller",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7npp9p7vk49g6ip729pdho0jc5",
+                                    "text": "获取数据",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "7grumjhv44974ickgdq5unoum2",
+                                            "text": "get类函数",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "77dmovoedu3kn60p8rtcm459k0",
+                                            "text": "文件获取",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "7fmmi8mqofho894alhttdsua2i",
+                                                    "text": "file,head,err:=GetFile(\"uploadname\")",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "773mr2glahnorkv8gks6l1dqv0",
+                                                    "text": "SaveToFile(\"uploadname\",路径)",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "7e5l8o29e5dkvpskdd11p2s06b",
+                                                    "text": "文件判断",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "0l5l2gk7c5460ch3rp043epsoh",
+                                                            "text": "判断大小",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "2lalm1stmrub8n6n9arou6ukfm",
+                                                            "text": "判断类型",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "62qbumr053m7suu61t94lm426g",
+                                                                    "text": "path.Ext",
+                                                                    "created": 1562559165608
+                                                                },
+                                                                "children": []
+                                                            }
+                                                        ]
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "000aidi38pd4ccv8ob7cqv2voh",
+                                                            "text": "防止重名",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": [
+                                                            {
+                                                                "data": {
+                                                                    "id": "7mk49ug45qaturnja0a13rv4g2",
+                                                                    "text": "当前时间",
+                                                                    "created": 1562559165608
+                                                                },
+                                                                "children": [
+                                                                    {
+                                                                        "data": {
+                                                                            "id": "61thruf00ua6c88658kdfll7q2",
+                                                                            "text": "Format   (\"2006-01-02-15:04:05\")",
+                                                                            "created": 1562559165608
+                                                                        },
+                                                                        "children": []
+                                                                    }
+                                                                ]
+                                                            }
+                                                        ]
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "7cpf9fh0nah9s7ia9dbp7f9379",
+                                    "text": "页面跳转",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "6tjenqjhhu8igfguqgj2vm6n2n",
+                                            "text": "重定向",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "4h69t06c2bp414eacs3prr3mek",
+                                                    "text": "this.Redirect(请求路径,状态码)",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4b3mpqtev79aja9mfsmverb0g6",
+                                            "text": "渲染",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "099dart6in3ik9kckghquolusg",
+                                                    "text": "this.TplName",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "3pi982p7sqcur9allro94dbcf4",
+                                    "text": "业务逻辑处理",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1bq0vvdo7gha4biibh89fipn7g",
+                                            "text": "分页处理",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "26h2s0h5rkb1musjtq2g81u4vt",
+                                                    "text": "获取总页数/总记录数",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "008nutkinejb33v60a25g9v5b0",
+                                                    "text": "获取首页和末页数据",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "094itl6aq7q6sm9i87mh5da8k7",
+                                                    "text": "获取上一页下一页",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "278s78rg9t8igpqgq2gk49srpp",
+                                            "text": "根据下拉框x选定相应类型的数据",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "693i88jhi0m3ic0ar0ei83nnk2",
+                                                    "text": "如何给后天发送数据",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "7km7ml0kskuvvpb4s56lgvh0l3",
+                                                    "text": "后台获取数据，查询先欢迎类型数据",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "02gqpheeh5tsn62kt60lvc7q0s",
+                                                    "text": "问题解决",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5dhvfptclejaks0q138mt0hd9d",
+                                            "text": "Session和Cookie",
+                                            "created": 1562559165608
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "16dagm6e8maelbfrmuv8r4iuks",
+                                                    "text": "作用",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "2crmtk3dh1jjcgi0ofs4k3hvf8",
+                                                            "text": "一定时间内保存用户数据",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "0q6lt05nfb3j8cib69v3elua25",
+                                                    "text": "区别",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "303hftlllqg1k30665fo0969m0",
+                                                            "text": "子主题 1",
+                                                            "created": 1562559165608
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "5ltrcue88t7ivr1ere8geatn06",
+                                                    "text": "在beego中的用法",
+                                                    "created": 1562559165608
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "5bmml6hcrghh3kieid05fmqvvp",
+                    "text": "ORM",
+                    "created": 1562559165608
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "248lm12p9oorshk5q5reg5l2ge",
+                            "text": "建表语句",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "555cvut3n3d2gjl3khlmh1eaac",
+                                    "text": "注册s数据库",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "09d03pprnbmjnsg9lq2ucogt2a",
+                                            "text": "defalut,数据库驱动，连接字符串（用户名:密码@tcp(127.0.0.1:3306）\\test？charset=utf8",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "7n3hddljbdte5k1kk60jna5udm",
+                                    "text": "注册表",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "5nm5bjsosu5ihh0ba6kovu85tt",
+                                            "text": "new(User),new(Article)",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "022u1b2um4bjcmld6u5qkra8aj",
+                                    "text": "生成表",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "7o49jdokcnpks5m1at714ju28a",
+                                            "text": "default,false,true",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2m73l4tgp7sh0hqu9ukfv6u25h",
+                            "text": "简单查询",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "77li1kda5nq5aahcmoudq3qmo0",
+                                    "text": "read,insert,update，delete",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1rkerj0up3v37ots9j2lf603va",
+                                            "text": "获取orm对象",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4m9dhjqfe2v2tggfln2o112n86",
+                                            "text": "获取操作对象",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "1bo297n66vuoq4ngj2h3t8ec3m",
+                                            "text": "处理数据",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4au1m88hhkgn6i1pa5l0s4fh1i",
+                                            "text": "返回结果",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2la0ncbco091mr7ud3j156va00",
+                            "text": "高级查询QuerySeter",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1q7m9i5oddpc8ql60jbbfa94sf",
+                                    "text": "All",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0sa2n412oolbinjtghkm4kk7nb",
+                                    "text": "One",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4j1krf33fa2p3v9ii4tj1h4kbr",
+                                    "text": "Limit(pageSize,start)",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4ml4c9n0l6hkiib7hqi4r2tv7a",
+                                    "text": "Count",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3nqbdjvbi9s865v3h2g8rpkn2t",
+                                    "text": "Filter(过滤条件，值)",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0emssr27l8jve95ovh7ia57q9g",
+                                    "text": "Distinct()",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1pnj5q43f7li5u20vvai7n2una",
+                                    "text": "OrderBy()",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "43imj4n2lpsk9n37bul0l6r66m",
+                                    "text": "RelatedSel",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "12mn9fili3ssuo86e93iihhog6",
+                            "text": "表属性设置",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "178v3jg4m61kmsbb0rv12gmn73",
+                                    "text": "pk",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7g5euln6bsnl6eb679apb8ap7b",
+                                    "text": "auto",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "70kk971ai8qd66cso75toh0cok",
+                                    "text": "unique",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2ilp7tligmo34rb1a39k160usj",
+                                    "text": "default",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6a4nj68q0sjj3nt6krgs23cfto",
+                                    "text": "size",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3daf402gakllm3pj3hc0750kt2",
+                                    "text": "rel(fk)  reverse(many)",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5icuhl41mtlokgsa97oe9q1lqu",
+                                    "text": "rel(m2m)  reverse(many)",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2quop8seourlhd2fssk5ilg8ut",
+                                    "text": "null",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4tjfuhcoenkhv6lqk4l5to9ae8",
+                                    "text": "auto_now_add   auto_now",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "5580d10lrt24m67qbt77pk6ooh",
+                            "text": "一对多插入和查询",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1vmeg25v49v66ri9586lctl649",
+                                    "text": "插入de的是对象",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6fghfi26d2llrf79bmecki5ctt",
+                                    "text": "RelatedSel()   惰性查询",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "45cie26vllr7e7d7spj6926kod",
+                            "text": "多对多插入和查询",
+                            "created": 1562559165608
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6ed11lkqjtillhe5e2ghud718s",
+                                    "text": "获取ORM对象    获取操作对象    获取多对多操作对象   获取插入对象  插入",
+                                    "created": 1562559165608
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0cvgu50bvtidjv5ucub763thhs",
+                                    "text": "查询",
+                                    "created": 1562559165608
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "48c3kmq5n96vg7jlpda7jabo1v",
+                                            "text": "loadRelated",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "57vstq8von9knsukc67dpkprem",
+                                            "text": "filter(\"Articles__Article__Id\",id)",
+                                            "created": 1562559165608
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "2rv3fr8j30glplc7f9fti03gm5",
+                    "text": "额外的内容",
+                    "created": 1562559165608
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "6sk1pfb04er7l8ceaglgqq79db",
+                            "text": "加密解密",
+                            "created": 1562559165608
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "4ottrv68i8qmo011a75hr280ad",
+                            "text": "隐藏域传值",
+                            "created": 1562559165608
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "38vtro0pogrthu5vlhhe3d8vab",
+                            "text": "URL传值",
+                            "created": 1562559165608
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "034fq5g3u8vfoloichbugv1e1q",
+                            "text": "删除js",
+                            "created": 1562559165608
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

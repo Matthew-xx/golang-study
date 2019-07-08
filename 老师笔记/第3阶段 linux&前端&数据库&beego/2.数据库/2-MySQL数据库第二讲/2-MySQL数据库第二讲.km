@@ -1,0 +1,379 @@
+{
+    "root": {
+        "data": {
+            "id": "62ku66h7j55jqk1pqbdggbcbis",
+            "text": "2-MySQL数据库第二讲",
+            "created": 1562559399609
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "44l311u82s6jocn6hikp78n5p9",
+                    "text": "数据类型",
+                    "created": 1562559399609
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "02hljg67djiik7eikqkuqumj4a",
+                            "text": "值类型",
+                            "created": 1562559399609
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5fio0jefrajgn5lh0tae2mfehl",
+                                    "text": "整形",
+                                    "created": 1562559399609
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1n3qq7j8ochsr7rj2e6qipfo16",
+                                            "text": "支持显示宽度",
+                                            "created": 1562559399609
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5m82ff2tf9jol2epbjsd6fgch6",
+                                            "text": "支持无符号",
+                                            "created": 1562559399609
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "2ickuqkcs2ul09lbnb1ekcsiga",
+                                    "text": "浮点型",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0inheq8tm0p6abal401q6lcg5s",
+                                    "text": "定点型",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "3jdradtitf7qckuf9l2r0qbhfc",
+                            "text": "字符型",
+                            "created": 1562559399609
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "785mcbsqj0ufd1sl09sc4bmcd8",
+                                    "text": "char",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3te2g038s3ags17mrdt08iq1ol",
+                                    "text": "varchar",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5ff6vvq3lao4g5geq7bkabi42a",
+                                    "text": "text",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4lepmuvhpvesqj7e7c5h038k9q",
+                            "text": "枚举",
+                            "created": 1562559399609
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5pmrhfvhm9tt5ms2lnkgpu5edu",
+                                    "text": "在集合中单选",
+                                    "created": 1562559399609
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4a157qreckd3kdpes4ih86nn9q",
+                                    "text": "在MySQL内部用整形数字进行管理",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5mj3qht2hrdiv44t46gq5isuqs",
+                                    "text": "优点：限制值，节省空间，运行速度快",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "468b5u9j4ef2mrthcv4rq4n7i7",
+                            "text": "集合",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5c58olbefqe71qquarv846itaq",
+                                    "text": "在集合中多选",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7tc4upk096cgja5uatin5nm75c",
+                            "text": "日期时间类型",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "6jak5om7ms947dr0r0cv9t5nsg",
+                                    "text": "datetime",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4l5pu0l9t0ba8eeprrbrli6jts",
+                                    "text": "date",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "68tdglue9f8gn9o7o75q4gglld",
+                                    "text": "time",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "25jgo28p4ln0onpbl5ec02rc97",
+                                    "text": "year",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1873fbj3hnfssc53gmrs13l6jm",
+                                    "text": "timestamp",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0ekq8to5u0iqir9mtjgtil52h4",
+                            "text": "布尔型",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "3ubsg8ffasci93ojf7bol2j00l",
+                                    "text": "MySQL不支持bool型",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "57d1etsgnepphrhm5q7itf70nc",
+                                    "text": "true和false在数据库中对应1和0",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "4lqdv2e13moa5u79hrut51vls6",
+                    "text": "列属性",
+                    "created": 1562559399610
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "6v2mknqiqdpb1nf3aqamc3g83a",
+                            "text": "是否为空",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "0q69pgt020k243pu1mmttnd7a3",
+                            "text": "默认值",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "1jsrn5di904qser6r6a0n8ltht",
+                            "text": "自动增长",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "2a4jh5bq3at6iier9abhabei0s",
+                            "text": "主键",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "2trp33bodqg3sjmdaeiguakvu2",
+                            "text": "唯一键",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "26b57qfnqlr8u4a85c5piusrla",
+                            "text": "备注",
+                            "created": 1562559399610
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "7779k5olvepohnr60i7h2sibeo",
+                    "text": "数据完整性",
+                    "created": 1562559399610
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "52ou83ir86r8qso0is0137q3v0",
+                            "text": "实体完整性",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "285euvebhupj6utelhcckt3inb",
+                                    "text": "主键",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "0k7vm2ipk58fcd04ltb7copitg",
+                                    "text": "唯一键",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5pgt9gkjjjhe87hfaum1fm6os1",
+                                    "text": "自动增长",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0f0fqit5sk1fiq4c3dq083jbmd",
+                            "text": "域完整性",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0nf4eiol2gn56hp5mi815skhh3",
+                                    "text": "类型约束",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5shpf0ajk4p8daqjemcd240sdk",
+                                    "text": "非空约束",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2laeuq5onqq6h6u0avhk464bq5",
+                                    "text": "默认值约束",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "78ksufavuebh40d6u8b06je7q6",
+                            "text": "引用完整性",
+                            "created": 1562559399610
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "30td728a7adhqsm9npmeocmhi9",
+                                    "text": "外键约束",
+                                    "created": 1562559399610
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

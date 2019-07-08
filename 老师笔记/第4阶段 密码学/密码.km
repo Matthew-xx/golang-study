@@ -1,0 +1,1208 @@
+{
+    "root": {
+        "data": {
+            "id": "0bpo6cap0q5ckois12ch68agda",
+            "text": "密码",
+            "created": 1562558606172
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "5ba9gutotqoe9qireao8vmpkmm",
+                    "text": "对称加密",
+                    "created": 1562558606172
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "5j2ir39bhsb1btvfgtnb6uplc6",
+                            "text": "什么是对称加密? - 加解密秘钥相同",
+                            "created": 1562558606172
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "0c1mfit7e4f9qui8hgcikghmc8",
+                            "text": "能干什么? - 进行网络通信的时候, 如果对象效率要求很高",
+                            "created": 1562558606172
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "42c8ndv03pt6001r5o54865gal",
+                            "text": "怎么用?",
+                            "created": 1562558606172,
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "43fsk336v0v7j3l5e99hiqvskq",
+                                    "text": "加密算法:",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1680ul6k8dv5r2vikd17u567vm",
+                                            "text": "des",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "3ffibt87ko6bodvh0hi8qj4id7",
+                                                    "text": "不安全",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "6he9i2tikgvfht69bmgb6gkd8o",
+                                                    "text": "秘钥: 8byte",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "7jqo4d3muv7mao3am6mtofroop",
+                                                    "text": "分组加密的方式加密, 每组8字节",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5mh38lkimbqcqv8p8r2u8vtivl",
+                                            "text": "3des",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "3n6t51sukip9laono22dv5dgai",
+                                                    "text": "安全, 效率低",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "4hel2e0paljo3c5f590in7q41i",
+                                                    "text": "秘钥: 8*3",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "1500vcq65ru254vlp0hdeukq21",
+                                                    "text": "分组长度: 8byte",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "0s7tuimo8bbsagtq48gtda6bkf",
+                                            "text": "aes",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "3d84jpvhdf6ei409jk9sfqpkch",
+                                                    "text": "安全, 效率高, 推荐",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "4rn41d1dqfv8dcv09sp4h9s9vl",
+                                                    "text": "秘钥: 16, 24, 32 字节, 在go里边16字节的秘钥长度",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "41nr7oi1vsni5rcmo96tl07df3",
+                                                    "text": "分组长度: 16字节",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "2hahab160t4glpvo6dvpi4d6bq",
+                                    "text": "分组模式",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "6q06t86lgr389srqfv4nr4laee",
+                                            "text": "ECB -> 不安全, 不推荐, 效率高",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "08urc2gpnb5re3p23117a08slt",
+                                            "text": "CBC -> 安全, 推荐",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5hg78mf7g30vggd7hl0899v7d6",
+                                            "text": "CFB -> 安全, 不推荐",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4et4e54ditsghgeamqnjtghiuu",
+                                            "text": "OFB -> 安全, 不推荐",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "46qh57pg3v1uqc8aa9esgfp40d",
+                                            "text": "CTR -> 安全, 推荐, 效率高",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "1ir8oaule7q6p8gddbpapsuon2",
+                                    "text": "细节",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "4tumiio42q272suehl10aqr7j0",
+                                            "text": "分组的填充",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "2bs0tqbg40madehu1s66mfis87",
+                                                    "text": "ECB, CBC",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "3sj42d7m2mt7rda8o6mft0jenn",
+                                                    "text": "规则:",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": [
+                                                    {
+                                                        "data": {
+                                                            "id": "5hjm9ejag5s8rnakc4vbln3l7d",
+                                                            "text": "计算最后一个分组缺少多少个字节, 假如缺少N个",
+                                                            "created": 1562558606172
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "3fi9303l7uqgfu853cn5modco0",
+                                                            "text": "在分组的尾部填充N个字节",
+                                                            "created": 1562558606172
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "22dbiqnun9vuk25r5f0p3e9g7v",
+                                                            "text": "填充的每个字节的值 == byte(N)",
+                                                            "created": 1562558606172
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "048mf9dd9pac0f5opbusgh0obn",
+                                                            "text": "解码完成, 将最后一个字节拿出, 并转化为int类型, 得到M",
+                                                            "created": 1562558606172
+                                                        },
+                                                        "children": []
+                                                    },
+                                                    {
+                                                        "data": {
+                                                            "id": "2vi1bq5ikr5udg85gdjbko7255",
+                                                            "text": "将尾部的M个字节删除",
+                                                            "created": 1562558606172
+                                                        },
+                                                        "children": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4f5i7h57lohll5apdghlcrq0qu",
+                                            "text": "初始化向量",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "3cj68kbqfljnadc746cv9i269u",
+                                                    "text": "CBC",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "57du405ahgimq4ml1ui9osmh72",
+                                                    "text": "CFB",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "2jl8g7mml26qp7cfqsrdcp6etk",
+                                                    "text": "OFB",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "57gi6hmp35vb779iscr9auqosc",
+                                                    "text": "长度需要和算法对应的分组长度相同",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "02u2qa9kqcmf06cbnvfehmhi6d",
+                                                    "text": "CTR -> 在go中api需要传递一个初始化向量, 和分组长度相同",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "1esqf8qj83hp054je4v44eks7f",
+                    "text": "非对称加密",
+                    "created": 1562558606172
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "783c8omft5dqq4o714a4lv6j7v",
+                            "text": "什么是非对称-> 加解密的秘钥不同",
+                            "created": 1562558606172
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "50qva64maaa7bt0n16vofonaki",
+                                    "text": "公钥加密, 私钥解密 -> 数据通信",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3su2ue6f1ikl374njucd0ppml3",
+                                    "text": "私钥加密, 公钥解密 -> 数字签名",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "5275f4gsk8s4arh9evgl1tmn7l",
+                            "text": "能干什么?",
+                            "created": 1562558606172
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "5mrn6417nj1nl4d7dri64onunl",
+                                    "text": "数据通信",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "51drav7t33t11jpde69upr9m4v",
+                                    "text": "数字签名",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4kll815qmkujdtn55555t9rvob",
+                                    "text": "保证数据的完整性",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2c9uen6bvmba7msgg9gevpunhd",
+                                    "text": "防止否认",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4n80tg3n7f8396epcbtrgqic37",
+                            "text": "使用的算法?",
+                            "created": 1562558606172
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "0m5ss1rqdli7dse1gagt7025os",
+                                    "text": "RSA",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "23bbal7ocu21lc6sqkf1e1l1aq",
+                                    "text": "ECC",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "5lu357hm9hgepa89nhd9cpisfp",
+                            "text": "数据加密使用步骤:",
+                            "created": 1562558606172
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "52fk6jp7ivqm2utmeu43gd1rda",
+                                    "text": "需要生成秘钥对",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5658v7qbcrld5s8adhh9n531hi",
+                                    "text": "秘钥对写入磁盘",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "62r4regps537uokpsb0sq5sp2g",
+                                            "text": "x509序列化",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "56benqo190df1sp0s2akn5mkb9",
+                                            "text": "pem编码",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "1i8o4uvidrb5dlqcgp1lpogehc",
+                                    "text": "加密",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1q5si2bt8lslmc7b0nr37ptp5g",
+                                            "text": "从文件中读公钥",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "499vq3e02pjjnd5dhi1i722p6u",
+                                                    "text": "pem解码",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "18qaoob1vkl6fpdi8bued7jq3r",
+                                                    "text": "x509反序列化",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "70acbt30c0m08nd22evn42rdd0",
+                                            "text": "使用公钥加密",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "7saq59pdovmq0pbp2duhnco1aq",
+                                    "text": "解密",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "2ilto3osgl7tonn4m54os5kjhk",
+                                            "text": "从文件中读私钥",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "445ah2stc2hsav9dcak0tlk4uq",
+                                                    "text": "pem解码",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "43v0apsbbt2s33hq20uh5c7cbq",
+                                                    "text": "x509反序列化",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2kj3fsq9nphd1knv6miu47c808",
+                                            "text": "私钥解密",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0m9m3trg9hcahac9f1i8v0mei9",
+                            "text": "数据签名的步骤",
+                            "created": 1562558606172
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "23bs39u94cham1ep8scvn07do7",
+                                    "text": "需要生成秘钥对",
+                                    "created": 1562558606172
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1mlpnjos94kcteanu1v6kc1rb2",
+                                    "text": "秘钥对写入磁盘",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "7can8i8ebql79jc18bgqds5rhr",
+                                            "text": "x509序列化",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "0edli1qcvgmm3bb9dnj3n19qa9",
+                                            "text": "pem编码",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "1e3vma2a0joe9muochuv8esaq8",
+                                    "text": "数字签名",
+                                    "created": 1562558606172
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "2hktqraces5kpfq3rlg77e5lu6",
+                                            "text": "从文件中读私钥",
+                                            "created": 1562558606172
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "5dtqv6e932nfieg1gt85hiv8vl",
+                                                    "text": "pem解码",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "5jqegimiteoeb4goj7g7ag8ekq",
+                                                    "text": "x509反序列化",
+                                                    "created": 1562558606172
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2fbkv78lt8t2lqtcp5ucvd9v5i",
+                                            "text": "对原始数据进行哈希运算 -> 散列值",
+                                            "created": 1562558606172
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "3dbpv3j52dnfj46evu9jkfmqu8",
+                                            "text": "调用签名方法 -> 签名数据(字符串, 数字->格式化为字符串)",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "5v9kohand742p323u51ff69cfk",
+                                    "text": "签名认证",
+                                    "created": 1562558606173
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "5tamjrhk9kdf043l9lhuvubbam",
+                                            "text": "从文件中读公钥钥",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "7ds2fe7hlr6jgs9sis2bantu9l",
+                                                    "text": "pem解码",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "344r4ahvdk9tfrelk9d9is78gs",
+                                                    "text": "x509反序列化",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "4bf9b4t5u7sqci2gket5408qtr",
+                                            "text": "对原始数据进行哈希运算 -> 散列值",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "16d17i5i07ag1c1clenat0u0k3",
+                                            "text": "调用验证方法",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4iqn1hdinck15e8ko2vdopl7c1",
+                            "text": "场景总结",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "2dn8flk4pi7el9i6du63oqatd5",
+                                    "text": "秘钥分发",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5r520pfi8nf9n0nqm8hof7gs7j",
+                                    "text": "数字签名",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "17m37l4tdma832dud66k9fhnai",
+                    "text": "哈希函数",
+                    "created": 1562558606173
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "07bdcmhtqpa71npeicqoo89ios",
+                            "text": "什么是哈希函数: 接收一个输入, 经过计算得到一个输出, 长度是固定的",
+                            "created": 1562558606173
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "43pl51he8nr506p38kb5spatmk",
+                            "text": "能干什么?",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1o92mfe9ok1banv1p0e4fc9t8f",
+                                    "text": "数据校验",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1oifimknhbo9fha094ulag359p",
+                                    "text": "完整性验证",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2l2ljvq8vh6bpk1i16v1nhlmos",
+                                    "text": "秒传",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4vjcr8u5hsoccuu7cej4ldjup2",
+                            "text": "怎么用",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "1aik1409lgk52ktoeld51lbmqa",
+                                    "text": "哪些哈希函数",
+                                    "created": 1562558606173
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "0kot390hvsq196r396od7knv5d",
+                                            "text": "md4/md5",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "65ngsg0olvpnthvrcq535opv1u",
+                                                    "text": "散列值: 16字节",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "3of3la33a8f7n29aeibpotrnpc",
+                                            "text": "sha1",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "7r4tl88v56ue0ok54tjb6t36ip",
+                                                    "text": "散列值: 20byte",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5is5anidlqo94kvmqpj4786l6f",
+                                            "text": "sha224",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "71ln8ag2q19cv4mtr3c0giprqv",
+                                                    "text": "散列值: 28字节",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "19c0v65h09fhskp3thgvtg7l9q",
+                                            "text": "sha256",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "2j0ka0s769rabo590vgorei1rn",
+                                                    "text": "散列值: 32字节",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "2ct4d8urq14lehrcl68nfr4hqo",
+                                            "text": "sha384",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "3gf77nncdhm3nj98su166jk34f",
+                                                    "text": "散列值: 48byte",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "0agtaq785vriouhgg68er76ja9",
+                                            "text": "sha512",
+                                            "created": 1562558606173
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "0rlo7l2fahhr2cj2h2hkui9pcu",
+                                                    "text": "散列值: 64字节",
+                                                    "created": 1562558606173
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "2qshvrsu09va9ngstaj5715usc",
+                    "text": "消息认证码 - Hmac",
+                    "created": 1562558606173
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "3sejpmgaas9lo8pat62lnbn99p",
+                            "text": "对数据进行哈希运算的时候添加了共享秘钥参与其中",
+                            "created": 1562558606173
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "5lt7e5uhrd814rjm03e76uhtmo",
+                            "text": "作用: 保证数据的完整性",
+                            "created": 1562558606173
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "3tlvhaqkpfhb6iuhqg87fb8j0o",
+                            "text": "怎么用?",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4nd78l25blqf03uaoikoktcd0h",
+                                    "text": "通信双方协商好共享秘钥",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2e906r52nabidk9m8df5fk7e9b",
+                                    "text": "协商哈希算法",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "01rk6mq719avos05ut52n89igl",
+                                    "text": "(原文+秘钥) * 函数函数 = 消息认证码",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7268i0g4qr5eicbrt67pb4drdb",
+                            "text": "缺陷:",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7q5u1mmip2sog9b7upo9u015mj",
+                                    "text": "不能第三方认证",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3gg9vc69tmrm1op4turovchtj2",
+                                    "text": "不能防止否认",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "09jpq37hbcosmjt2eq8c3ptc11",
+                                    "text": "共享秘钥分发困难",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "7ihke7msh301ktog4afghsq6h3",
+                    "text": "数字签名",
+                    "created": 1562558606173
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "5tjosfmo1q1ohdmo3ecmaj1q3q",
+                    "text": "证书",
+                    "created": 1562558606173
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "594gtmf5gnjd9tcrpvkck726vh",
+                            "text": "第三方CA, 对用户的公钥进行数字签名, 里边有公钥和个人或者组织信息",
+                            "created": 1562558606173
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "16s9t6c9r5hmrr626d1r1p1e4f",
+                            "text": "干什么的?",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4nq9kbb9jupghgbbbp8s0lfcvc",
+                                    "text": "认证公钥确实属于某个人或者机构",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "2pbk8kdm61p3qb3mdm0k0n6vo2",
+                            "text": "怎么用的?",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "036l7vnatmdd0t6g8rd5t6d83a",
+                                    "text": "1. 服务器申请证书",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7fcqrf6pq2pqre4kv7g88otp2s",
+                                    "text": "2. 客户端访问服务器, 服务器将CA签发的证书发送给客户端",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "7pbqhc88qq8b2h2rbaajndllo4",
+                                    "text": "3. 客户端(浏览器)对证书进行验证",
+                                    "created": 1562558606173
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "46scslmuf8437vgnntia613c3i",
+                                            "text": "域名",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "679nk98veqkf9n6ardqv8a3fcu",
+                                            "text": "有效期",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "1vgbtq5qk73tcck6nrkpemp2fj",
+                                            "text": "签发机构是否可信赖",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "42dk55l7nadl3h3465joj0iubs",
+                                    "text": "4. 将服务器的公钥从证书中拿出",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "1u1700qi2pi42t4ftv751m6m72",
+                            "text": "相关 概念",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "3v5nhjgntpnfhuhb4gac4btg4l",
+                                    "text": "CA - 认证机构的统称",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "1em8pi0las8a1aq3oqv9a7egg6",
+                                    "text": "x509 - 证书规范",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6qkgst237sqk0le2oa08j1ne1t",
+                                    "text": "pem编码是可逆的",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5qiqlkp24ar5f9vlavfdqpovhe",
+                                    "text": "PKI",
+                                    "created": 1562558606173
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "7i8rep5pm854ca7d7lop0cfdoi",
+                                            "text": "用户",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "0l5ns6f3epaaogptsq13h3uuaf",
+                                            "text": "CA机构",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "7bkv9o38i1a2377igio2lq66va",
+                                            "text": "仓库",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "3jqhdf5g8dot3g155vr2mps0gl",
+                                    "text": "证书的信任链",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "1aa75d7q8de74l9booob9gks0l",
+                            "text": "ssl/tls",
+                            "created": 1562558606173
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4de7ocvdqsdcuahds2hgr6p0c2",
+                                    "text": "对http协议进行了加密",
+                                    "created": 1562558606173
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "6tkkv2bll5h6djdfo0cmplt67f",
+                                            "text": "https",
+                                            "created": 1562558606173
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "123chm9devub5te65ni2scgosv",
+                                    "text": "http端口: 80",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "3hqs6q2urcce3ur5suhlfefi0p",
+                                    "text": "https端口:443",
+                                    "created": 1562558606173
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}

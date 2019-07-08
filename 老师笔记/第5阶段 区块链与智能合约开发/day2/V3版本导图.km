@@ -1,0 +1,434 @@
+{
+    "root": {
+        "data": {
+            "id": "02qnok26b4sui5h4rqgjl6ijgb",
+            "text": "main.go",
+            "created": 1562558922131
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "3onq07cupep7btd45solljvtpq",
+                    "text": "bc := NewBlockChain()",
+                    "created": 1562558922131
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "5a6nq9faj32jrh0ljp8m634hel",
+                    "text": "cli := CLI{bc}",
+                    "created": 1562558922131
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "7o4epoprivprnoqufrnt1rt4aj",
+                    "text": "cli.Run( )",
+                    "created": 1562558922131
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "0ivmk0ldann7rdaa2us5rvq75j",
+                    "text": "blockChain.go",
+                    "created": 1562558922131
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "0v0ilkaj6h5k54pl6d689f23gf",
+                            "text": "区块链",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4bq99tb9fsell6o3su4a1d12bc",
+                                    "text": "NewBlockChain（）",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "5bcbl5jdvfka1ps1oiam7mjb3n",
+                                    "text": "AddBlock(data)",
+                                    "created": 1562558922131
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "4imhl9ki7q4abaea3930nfbdpu",
+                                            "text": "NewBlock(data, prevBlockHash)",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "4c2kbq0v6ahi09aje7t5t8mpps",
+                                    "text": "NewIterator( )",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "7101ds5hlcsjg86bd5ed1tdn8r",
+                            "text": "迭代器",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "31tn9dm0ibbuibl6iaqnfbn0f9",
+                                    "text": "Nex( )",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "3c5be55g5seqaludldhbalamei",
+                    "text": "block.go",
+                    "created": 1562558922131
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "4b1mumoha8llpfsug1e1nipgqn",
+                            "text": "结构",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4v6c4r9rr8oqmrfogmfgge4ind",
+                                    "text": "Version",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6kj49cmuvce0siculbljla09tg",
+                                    "text": "PrevBlockHash",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6evnfqql4tj2arhs9sijajhaup",
+                                    "text": "Hash",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6j2cu2e7ob230qrkc3qbr027d0",
+                                    "text": "TimeStamp",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "123b1laga8426kovvpg55a6001",
+                                    "text": "MerKelRoot",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "4aqrk2ie0rcn18lo4av9e4dm7c",
+                                    "text": "Bits",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "02auvmifoqrt6krrbk5tu4o2pk",
+                                    "text": "Nonce",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "2kn4ea3elgn7h6af0l6kpjc7nk",
+                                    "text": "Data",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "6vdt2obbju8b0ernvfc7e52ouf",
+                            "text": "自由函数",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4ohpnr0slrmbrve8oc19sjvrvt",
+                                    "text": "NewBlock(data, prevBlockHash)",
+                                    "created": 1562558922131
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "2hcivuf9kf3tmme4ocbf1lqcav",
+                                            "text": "填充各个block字段",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "1usien2p4qo7t1vppsgu179va0",
+                                            "text": "pow := NewProofOfWork(block)",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "5kkd6m3d8l2di5pgosi4fj1lbv",
+                                            "text": "pow.Run()",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "55o59pomr2ile4vcv913ojp4p5",
+                    "text": "proofOfWork.go",
+                    "created": 1562558922131
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "77hgr3c13svcblqa6qn797etiq",
+                            "text": "结构",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "4878rp73fqnph2jhsqoj7plpon",
+                                    "text": "block",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "6hok758ehv845m7s5cljhpllvs",
+                                    "text": "target",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "0592120coh11jraaqetph43m2h",
+                            "text": "方法",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "7aedgc1fecac4u1u628p79038e",
+                                    "text": "PrePareData(nonce)",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "47one6nauhhjjia3orufkpfo09",
+                                    "text": "Run()",
+                                    "created": 1562558922131
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "1ed83kk4v5eh4ebbnf1u5p349r",
+                                            "text": "for(nonce)",
+                                            "created": 1562558922131
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "0vmbddht8mgs7ai0ths1in6nu7",
+                                                    "text": "准备数据data := PrePareData(nonce)",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "0oe9pktgi6n7gm2lcjnilqcdrs",
+                                                    "text": "求哈希 hash := sha256(data)",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "21b01n3l6hnmf0cje6ahu3ppml",
+                                                    "text": "HashInt.SetBytes(hash[:])",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "2hd6o0lo1avst04u1qff2rqens",
+                                                    "text": "对比目标值HashInt.Cmp(pow.target)",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "4v92o9gki89livjdci731gm198",
+                            "text": "自由函数",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "74j5lcjias0sritukfb68ovpl9",
+                                    "text": "NewProofOfWork(block)",
+                                    "created": 1562558922131
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "1doaqfba59ql6jfb93qg71kdc6",
+                    "text": "(cli *CLI)Run( )",
+                    "created": 1562558922131
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "0hddjredt0t04lt4lcc1o3tdvd",
+                            "text": "./block addBlock --data \"xxxxxx\"",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "49l9oaj8sg9eklknjubven7j1r",
+                                    "text": "cli.AddBlock( )",
+                                    "created": 1562558922131
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "3722btot3ho67q5dplk108hf0t",
+                                            "text": "bc.AddBlock(\"data\")",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "79haqpfvq6dah330u6fjv37epk",
+                            "text": "./block printChain",
+                            "created": 1562558922131
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "22ipprn0j3cmavsv8720jp0lar",
+                                    "text": "cli.PrintChain( )",
+                                    "created": 1562558922131
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "60sr3bjdgsiavj9v0sekul352t",
+                                            "text": "创建迭代器  it := NewIterator()",
+                                            "created": 1562558922131
+                                        },
+                                        "children": []
+                                    },
+                                    {
+                                        "data": {
+                                            "id": "7m84enk9sroeqiapcfhpkmo4i8",
+                                            "text": "for",
+                                            "created": 1562558922131
+                                        },
+                                        "children": [
+                                            {
+                                                "data": {
+                                                    "id": "1s23jasrcd7d06vundceast41d",
+                                                    "text": "block := it.Next( )",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            },
+                                            {
+                                                "data": {
+                                                    "id": "2foe2blqdaolnog4booh280t3l",
+                                                    "text": "打印各个字段",
+                                                    "created": 1562558922131
+                                                },
+                                                "children": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "right",
+    "theme": "fresh-blue-compat",
+    "version": "1.4.43"
+}
