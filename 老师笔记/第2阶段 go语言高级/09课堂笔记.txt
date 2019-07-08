@@ -1,70 +1,70 @@
 
-web¹¤×÷·½Ê½£º
+webå·¥ä½œæ–¹å¼ï¼š
 
-	1. ¿Í»§¶Ë ¡ª¡ª> ·ÃÎÊ www.baidu.com  ¡ª¡ª> DNS ·þÎñÆ÷¡£ ·µ»Ø ¸ÃÓòÃû¶ÔÓ¦µÄ IPµØÖ·¡£
+	1. å®¢æˆ·ç«¯ â€”â€”> è®¿é—® www.baidu.com  â€”â€”> DNS æœåŠ¡å™¨ã€‚ è¿”å›ž è¯¥åŸŸåå¯¹åº”çš„ IPåœ°å€ã€‚
 
-	2. ¿Í»§¶Ë ¡ª¡ª> IP + port ¡ª¡ª> ·ÃÎÊ ÍøÒ³Êý¾Ý¡££¨TCP Á¬½Ó¡£ HTTPÐ­Òé¡££©
+	2. å®¢æˆ·ç«¯ â€”â€”> IP + port â€”â€”> è®¿é—® ç½‘é¡µæ•°æ®ã€‚ï¼ˆTCP è¿žæŽ¥ã€‚ HTTPåè®®ã€‚ï¼‰
 
-httpºÍURL£º
+httpå’ŒURLï¼š
 
-	http ³¬ÎÄ±¾´«ÊäÐ­Òé¡£¹æ¶¨ÁË ä¯ÀÀÆ÷·ÃÎÊ Web·þÎñÆ÷ ½øÐÐÊý¾ÝÍ¨ÐÅµÄ¹æÔò¡£  http£¨Ã÷ÎÄ£© -- TLS¡¢SSL -- https£¨¼ÓÃÜ£©
+	http è¶…æ–‡æœ¬ä¼ è¾“åè®®ã€‚è§„å®šäº† æµè§ˆå™¨è®¿é—® WebæœåŠ¡å™¨ è¿›è¡Œæ•°æ®é€šä¿¡çš„è§„åˆ™ã€‚  httpï¼ˆæ˜Žæ–‡ï¼‰ -- TLSã€SSL -- httpsï¼ˆåŠ å¯†ï¼‰
 
-	URL£ºÍ³Ò»×ÊÔ´¶¨Î»¡£ ÔÚÍøÂç»·¾³ÖÐÎ¨Ò»¶¨Î»Ò»¸ö×ÊÔ´Êý¾Ý¡£  ä¯ÀÀÆ÷µØÖ·À¸ÄÚÈÝ¡£
+	URLï¼šç»Ÿä¸€èµ„æºå®šä½ã€‚ åœ¨ç½‘ç»œçŽ¯å¢ƒä¸­å”¯ä¸€å®šä½ä¸€ä¸ªèµ„æºæ•°æ®ã€‚  æµè§ˆå™¨åœ°å€æ å†…å®¹ã€‚
 
-httpÇëÇó°ü£º
+httpè¯·æ±‚åŒ…ï¼š
 
-	ÇëÇóÐÐ£ºÇëÇó·½·¨£¨¿Õ¸ñ£©ÇëÇóÎÄ¼þURL£¨¿Õ¸ñ£©Ð­Òé°æ±¾£¨\r\n£©
+	è¯·æ±‚è¡Œï¼šè¯·æ±‚æ–¹æ³•ï¼ˆç©ºæ ¼ï¼‰è¯·æ±‚æ–‡ä»¶URLï¼ˆç©ºæ ¼ï¼‰åè®®ç‰ˆæœ¬ï¼ˆ\r\nï¼‰
 
-		GET¡¢POST
+		GETã€POST
 
-	ÇëÇóÍ·£ºÓï·¨¸ñÊ½ £º key £ºvalue
+	è¯·æ±‚å¤´ï¼šè¯­æ³•æ ¼å¼ ï¼š key ï¼švalue
 
-	¿ÕÐÐ£º\r\n	 ¡ª¡ª ´ú±í httpÇëÇóÍ·½áÊø¡£
+	ç©ºè¡Œï¼š\r\n	 â€”â€” ä»£è¡¨ httpè¯·æ±‚å¤´ç»“æŸã€‚
 
-	ÇëÇó°üÌå£ºÇëÇó·½·¨¶ÔÓ¦µÄÊý¾ÝÄÚÈÝ¡£ GET·½·¨Ã»ÓÐÄÚÈÝ£¡£¡
+	è¯·æ±‚åŒ…ä½“ï¼šè¯·æ±‚æ–¹æ³•å¯¹åº”çš„æ•°æ®å†…å®¹ã€‚ GETæ–¹æ³•æ²¡æœ‰å†…å®¹ï¼ï¼
 
-httpÓ¦´ð°ü²âÊÔ£º
+httpåº”ç­”åŒ…æµ‹è¯•ï¼š
 
-	1. Ê¹ÓÃ net/http°ü ´´½¨ web ·þÎñÆ÷
+	1. ä½¿ç”¨ net/httpåŒ… åˆ›å»º web æœåŠ¡å™¨
 
-		1£© ×¢²á»Øµ÷º¯Êý¡£
+		1ï¼‰ æ³¨å†Œå›žè°ƒå‡½æ•°ã€‚
 			
 			http.HandleFunc("/itcast", handler)
 
-				²Î1£ºÓÃ»§·ÃÎÊÎÄ¼þÎ»ÖÃ
+				å‚1ï¼šç”¨æˆ·è®¿é—®æ–‡ä»¶ä½ç½®
 
-				²Î2£º»Øµ÷º¯ÊýÃû ¡ª¡ª º¯Êý±ØÐëÊÇ (w http.ResponseWriter, r *http.Request) ×÷Îª²ÎÊý¡£
+				å‚2ï¼šå›žè°ƒå‡½æ•°å â€”â€” å‡½æ•°å¿…é¡»æ˜¯ (w http.ResponseWriter, r *http.Request) ä½œä¸ºå‚æ•°ã€‚
 
-		2£©°ó¶¨·þÎñÆ÷¼àÌýµØÖ·¡£
+		2ï¼‰ç»‘å®šæœåŠ¡å™¨ç›‘å¬åœ°å€ã€‚
 
 			http.ListenAndServe("127.0.0.1:8000", nil)
-	2. »Øµ÷º¯Êý£º
+	2. å›žè°ƒå‡½æ•°ï¼š
 
-		±¾ÖÊ£ºº¯ÊýÖ¸Õë¡£Í¨¹ýµØÖ·£¬ÔÚÄ³Ò»ÌØ¶¨Î»ÖÃ£¬µ÷ÓÃº¯Êý¡£
+		æœ¬è´¨ï¼šå‡½æ•°æŒ‡é’ˆã€‚é€šè¿‡åœ°å€ï¼Œåœ¨æŸä¸€ç‰¹å®šä½ç½®ï¼Œè°ƒç”¨å‡½æ•°ã€‚
 
-		ÔÚ³ÌÐòÖÐ£¬¶¨ÒåÒ»¸öº¯Êý£¬µ«²»ÏÔÊ¾µ÷ÓÃ¡£µ±Ä³Ò»Ìõ¼þÂú×ãÊ±£¬¸Ãº¯ÊýÓÉ²Ù×÷ÏµÍ³×Ô¶¯µ÷ÓÃ¡£ 
+		åœ¨ç¨‹åºä¸­ï¼Œå®šä¹‰ä¸€ä¸ªå‡½æ•°ï¼Œä½†ä¸æ˜¾ç¤ºè°ƒç”¨ã€‚å½“æŸä¸€æ¡ä»¶æ»¡è¶³æ—¶ï¼Œè¯¥å‡½æ•°ç”±æ“ä½œç³»ç»Ÿè‡ªåŠ¨è°ƒç”¨ã€‚ 
 
-httpÓ¦´ð°ü¸ñÊ½£º
+httpåº”ç­”åŒ…æ ¼å¼ï¼š
 
-	×´Ì¬ÐÐ£ºÐ­Òé°æ±¾ºÅ£¨¿Õ¸ñ£©×´Ì¬Âë£¨¿Õ¸ñ£©×´Ì¬ÂëÃèÊö£¨\r\n£©
+	çŠ¶æ€è¡Œï¼šåè®®ç‰ˆæœ¬å·ï¼ˆç©ºæ ¼ï¼‰çŠ¶æ€ç ï¼ˆç©ºæ ¼ï¼‰çŠ¶æ€ç æè¿°ï¼ˆ\r\nï¼‰
 
-	ÏìÓ¦Í·£ºÓï·¨¸ñÊ½ £º key £ºvalue
+	å“åº”å¤´ï¼šè¯­æ³•æ ¼å¼ ï¼š key ï¼švalue
 
-	¿ÕÐÐ£º\r\n
+	ç©ºè¡Œï¼š\r\n
 
-	ÏìÓ¦°üÌå£º ÇëÇóÄÚÈÝ´æÔÚ£º ·µ»ØÇëÇóÒ³ÃæÄÚÈÝ
+	å“åº”åŒ…ä½“ï¼š è¯·æ±‚å†…å®¹å­˜åœ¨ï¼š è¿”å›žè¯·æ±‚é¡µé¢å†…å®¹
 
-		 ÇëÇóÄÚÈÝ²»´æÔÚ£º ·µ»Ø´íÎóÒ³ÃæÃèÊö¡£
+		 è¯·æ±‚å†…å®¹ä¸å­˜åœ¨ï¼š è¿”å›žé”™è¯¯é¡µé¢æè¿°ã€‚
 
-http WEB·þÎñÆ÷£º
+http WEBæœåŠ¡å™¨ï¼š
 
-	1.  ×¢²á»Øµ÷º¯Êý£ºhttp.HandleFunc("/", myHandler)
+	1.  æ³¨å†Œå›žè°ƒå‡½æ•°ï¼šhttp.HandleFunc("/", myHandler)
 
 		func myHandler(w http.ResponseWriter, r *http.Request)
 
-			w£º¸ø¿Í»§¶Ë»Ø·¢Êý¾Ý
+			wï¼šç»™å®¢æˆ·ç«¯å›žå‘æ•°æ®
 
-			r£º´Ó¿Í»§¶Ë¶Áµ½µÄÊý¾Ý
+			rï¼šä»Žå®¢æˆ·ç«¯è¯»åˆ°çš„æ•°æ®
 
 		type ResponseWriter interface {
    			Header() Header			
@@ -73,40 +73,40 @@ http WEB·þÎñÆ÷£º
 		}
 
 		type Request struct {
-			Method string		// ä¯ÀÀÆ÷ÇëÇó·½·¨ GET¡¢POST¡­
-			URL *url.URL		// ä¯ÀÀÆ÷ÇëÇóµÄ·ÃÎÊÂ·¾¶
-			¡­¡­
-			Header Header		// ÇëÇóÍ·²¿
-			Body io.ReadCloser	// ÇëÇó°üÌå
-			RemoteAddr string	// ä¯ÀÀÆ÷µØÖ·
-			¡­¡­
+			Method string		// æµè§ˆå™¨è¯·æ±‚æ–¹æ³• GETã€POSTâ€¦
+			URL *url.URL		// æµè§ˆå™¨è¯·æ±‚çš„è®¿é—®è·¯å¾„
+			â€¦â€¦
+			Header Header		// è¯·æ±‚å¤´éƒ¨
+			Body io.ReadCloser	// è¯·æ±‚åŒ…ä½“
+			RemoteAddr string	// æµè§ˆå™¨åœ°å€
+			â€¦â€¦
     			ctx context.Context
 		}
 
-	2. °ó¶¨·þÎñÆ÷µØÖ·½á¹¹£ºhttp.ListenAndServe("127.0.0.1:8000", nil)
+	2. ç»‘å®šæœåŠ¡å™¨åœ°å€ç»“æž„ï¼šhttp.ListenAndServe("127.0.0.1:8000", nil)
 
-		²Î2£ºÍ¨³£´« ni ¡£ ±íÊ¾  ÈÃ·þÎñ¶Ë µ÷ÓÃÄ¬ÈÏµÄ http.DefaultServeMux ½øÐÐ´¦Àí
+		å‚2ï¼šé€šå¸¸ä¼  ni ã€‚ è¡¨ç¤º  è®©æœåŠ¡ç«¯ è°ƒç”¨é»˜è®¤çš„ http.DefaultServeMux è¿›è¡Œå¤„ç†
 
-http WEB¿Í»§¶Ë£º
+http WEBå®¢æˆ·ç«¯ï¼š
 
-	1. »ñÈ¡web·þÎñÆ÷Êý¾Ý£º
+	1. èŽ·å–webæœåŠ¡å™¨æ•°æ®ï¼š
 
 		func Get(url string) (resp *Response, err error)
 
-		·µ»Ø£ºhttpÓ¦´ð°ü£¬±£´æ³É struct 
+		è¿”å›žï¼šhttpåº”ç­”åŒ…ï¼Œä¿å­˜æˆ struct 
 
 		type Response struct {
    			Status     string // e.g. "200 OK"
    			StatusCode int    // e.g.  200
    			Proto      string // e.g. "HTTP/1.0"
-  			 ¡­¡­
+  			 â€¦â€¦
    			Header Header
    			Body io.ReadCloser
-  		 	¡­¡­
+  		 	â€¦â€¦
 		}
 	2. defer resp.Body.Close()
 
-	3. for Ñ­»·ÌáÈ¡ Body Êý¾Ý£º
+	3. for å¾ªçŽ¯æå– Body æ•°æ®ï¼š
 
 		n, err := resp.Body.Read(buf) 
 		if n == 0 {

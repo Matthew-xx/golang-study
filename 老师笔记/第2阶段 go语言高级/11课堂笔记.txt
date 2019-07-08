@@ -1,131 +1,131 @@
-https://www.pengfu.com/xiaohua_1.html		1	ÏÂÒ»Ò³+1
+https://www.pengfu.com/xiaohua_1.html		1	ä¸‹ä¸€é¡µ+1
 
 https://www.pengfu.com/xiaohua_2.html		2
 
 https://www.pengfu.com/xiaohua_3.html		3
 
 
-»ñÈ¡Ò»¸öÒ³ÃæÖÐ£¬Ò»¸ö¶Î×ÓµÄ URL ÌØÕ÷£º <h1 class="dp-b"><a href=" ¶Î×ÓURL "	¡ª¡ª 10 ´¦
+èŽ·å–ä¸€ä¸ªé¡µé¢ä¸­ï¼Œä¸€ä¸ªæ®µå­çš„ URL ç‰¹å¾ï¼š <h1 class="dp-b"><a href=" æ®µå­URL "	â€”â€” 10 å¤„
 
-	È¡Ò»¸ö¶Î×ÓÖÐµÄ title ÌØÕ÷	 <h1>title</h1>	¡ª¡ª ÓÐ2´¦£¬È¡µÚÒ»¸ö¡£
+	å–ä¸€ä¸ªæ®µå­ä¸­çš„ title ç‰¹å¾	 <h1>title</h1>	â€”â€” æœ‰2å¤„ï¼Œå–ç¬¬ä¸€ä¸ªã€‚
 
-	È¡Ò»¸ö¶Î×ÓÖÐµÄ content ÌØÕ÷	<div class="content-txt pt10"> ¶Î×ÓÄÚÈÝ <br />
-
-----------------
-
-ÅÀÈ¡¶·Óã-ÑÕÖµÍ¼Æ¬
+	å–ä¸€ä¸ªæ®µå­ä¸­çš„ content ç‰¹å¾	<div class="content-txt pt10"> æ®µå­å†…å®¹ <br />
 
 ----------------
 
-goÅÀ³æ¿ò¼Ü£º
+çˆ¬å–æ–—é±¼-é¢œå€¼å›¾ç‰‡
+
+----------------
+
+goçˆ¬è™«æ¡†æž¶ï¼š
 	gocolly
 
-go¿ªÔ´ÅÀ³æÏîÄ¿£º
+goå¼€æºçˆ¬è™«é¡¹ç›®ï¼š
 	https://www.oschina.net/p/pholcus
 
-========================================== ×Ü½á ============================================
+========================================== æ€»ç»“ ============================================
 
-Ö¸Õë£º
+æŒ‡é’ˆï¼š
 
-	Ö¸Õë×öº¯Êý²ÎÊý¡¢·µ»ØÖµ
+	æŒ‡é’ˆåšå‡½æ•°å‚æ•°ã€è¿”å›žå€¼
 
-ÇÐÆ¬£º
+åˆ‡ç‰‡ï¼š
 	buf := make([]byte, 4096)
 
-	×öº¯Êý²ÎÊý¡¢·µ»ØÖµ¡ª¡ª´«ÒýÓÃ¡£
+	åšå‡½æ•°å‚æ•°ã€è¿”å›žå€¼â€”â€”ä¼ å¼•ç”¨ã€‚
 
-	appendº¯Êý
+	appendå‡½æ•°
 
-map£º
-	´´½¨¡¢´æ´¢¡¢delete¡¢±éÀú
+mapï¼š
+	åˆ›å»ºã€å­˜å‚¨ã€deleteã€éåŽ†
 
-½á¹¹Ìå£º
+ç»“æž„ä½“ï¼š
 
-	´´½¨¡¢³õÊ¼»¯¡¢´«²Î£¨Ä¬ÈÏ£º´«Öµ¡£ ÍÆ¼ö£º´«ÒýÓÃ¡¢·µ»ØÖµ£©
+	åˆ›å»ºã€åˆå§‹åŒ–ã€ä¼ å‚ï¼ˆé»˜è®¤ï¼šä¼ å€¼ã€‚ æŽ¨èï¼šä¼ å¼•ç”¨ã€è¿”å›žå€¼ï¼‰
 
-ÎÄ¼þ²Ù×÷£º
+æ–‡ä»¶æ“ä½œï¼š
 
-	×Ö·û´®³£ÓÃ²Ù×÷º¯Êý£º
+	å­—ç¬¦ä¸²å¸¸ç”¨æ“ä½œå‡½æ•°ï¼š
 
-		split¡¢replace¡¢Fields¡¢Itoa¡¢Atoi¡¢HasSuffix¡¢Contains¡¢Join
+		splitã€replaceã€Fieldsã€Itoaã€Atoiã€HasSuffixã€Containsã€Join
 
-	ÎÄ¼þ´¦Àíº¯Êý£º
+	æ–‡ä»¶å¤„ç†å‡½æ•°ï¼š
 
-		Open¡¢Create¡¢OpenFile¡¢Readdir
+		Openã€Createã€OpenFileã€Readdir
 
-	ÎÄ¼þ²Ù×÷Á·Ï°¡£ ´óÎÄ¼þ¿½±´¡£
+	æ–‡ä»¶æ“ä½œç»ƒä¹ ã€‚ å¤§æ–‡ä»¶æ‹·è´ã€‚
 
-goroutine£º
+goroutineï¼š
 
-	[ ½ø³Ì ]¡¢³ÌÐò¡¢Ïß³Ì¡¢Ð­³Ì¡¢[ go³Ì ]¡£
+	[ è¿›ç¨‹ ]ã€ç¨‹åºã€çº¿ç¨‹ã€åç¨‹ã€[ goç¨‹ ]ã€‚
 
-	½ø³Ì×´Ì¬¡£
+	è¿›ç¨‹çŠ¶æ€ã€‚
 
-	Í¬²½¸ÅÄî¡£¡ª¡ª »ù±¾Í¬²½·½·¨¡£
+	åŒæ­¥æ¦‚å¿µã€‚â€”â€” åŸºæœ¬åŒæ­¥æ–¹æ³•ã€‚
 
-	goroutine ÌØÐÔ¡£
+	goroutine ç‰¹æ€§ã€‚
 
-	Goexit¡¢return¡¢ os.Exit(2) 	Çø±ðºÍÁªÏµ¡£
+	Goexitã€returnã€ os.Exit(2) 	åŒºåˆ«å’Œè”ç³»ã€‚
 
-channel£º
+channelï¼š
 
-	´´½¨
+	åˆ›å»º
 
-	ÎÞ»º³å¡¢ÓÐ»º³åchannel
+	æ— ç¼“å†²ã€æœ‰ç¼“å†²channel
 
-	¹Ø±Õ channel ÌØÐÔ¡£		Çø·Ö£º¡ª¡ª ¶ÁÐ´¶¼ÔÚ£¬²»¶Á£¬²»Ð´¡£¡ª¡ª ×èÈû¡£
+	å…³é—­ channel ç‰¹æ€§ã€‚		åŒºåˆ†ï¼šâ€”â€” è¯»å†™éƒ½åœ¨ï¼Œä¸è¯»ï¼Œä¸å†™ã€‚â€”â€” é˜»å¡žã€‚
 
-	µ¥Ïò channel¡£ ¡ª¡ª ´«²Î
+	å•å‘ channelã€‚ â€”â€” ä¼ å‚
 
-	Éú²úÕß¡¢Ïû·ÑÕß¡£
+	ç”Ÿäº§è€…ã€æ¶ˆè´¹è€…ã€‚
 
-	¶¨Ê±Æ÷£ºTimer¡¢time.After	
+	å®šæ—¶å™¨ï¼šTimerã€time.After	
 
-	select : ¼àÌý channel ÉÏµÄÊý¾ÝÁ÷¶¯¡£
+	select : ç›‘å¬ channel ä¸Šçš„æ•°æ®æµåŠ¨ã€‚
 
-	ËÀËø£º µ¥go³ÌËÀËø¡¢Á½¸ögo³ÌÏÈºóË³ÐòËÀËø¡¢½»²æËÀËø¡£
+	æ­»é”ï¼š å•goç¨‹æ­»é”ã€ä¸¤ä¸ªgoç¨‹å…ˆåŽé¡ºåºæ­»é”ã€äº¤å‰æ­»é”ã€‚
 
-	Í¬²½·½·¨£º»¥³âÁ¿¡¢¶ÁÐ´Ëø¡¢Ìõ¼þ±äÁ¿¡£¡ª¡ª Éú²úÕß¡¢Ïû·ÑÕß£¨²¢·¢£©
+	åŒæ­¥æ–¹æ³•ï¼šäº’æ–¥é‡ã€è¯»å†™é”ã€æ¡ä»¶å˜é‡ã€‚â€”â€” ç”Ÿäº§è€…ã€æ¶ˆè´¹è€…ï¼ˆå¹¶å‘ï¼‰
 
-ÍøÂç±à³Ì£º
+ç½‘ç»œç¼–ç¨‹ï¼š
 
-	Ð­Òé£ºosi7²ãÄ£ÐÍ¡¢tcp/ip4²ã¡£ ¡ª¡ª ¸÷²ã´ú±íÐ­Òé¡£
+	åè®®ï¼šosi7å±‚æ¨¡åž‹ã€tcp/ip4å±‚ã€‚ â€”â€” å„å±‚ä»£è¡¨åè®®ã€‚
 
-	Êý¾ÝÍ¨ÐÅ¹ý³Ì£ºÊý¾Ý¡ª¡ªÓ¦ÓÃ²ã¡ª¡ª´«Êä²ã¡ª¡ªÍøÂç²ã¡ª¡ªÁ´Â·²ã¡ª¡ªÍøÂç»·¾³¡£
+	æ•°æ®é€šä¿¡è¿‡ç¨‹ï¼šæ•°æ®â€”â€”åº”ç”¨å±‚â€”â€”ä¼ è¾“å±‚â€”â€”ç½‘ç»œå±‚â€”â€”é“¾è·¯å±‚â€”â€”ç½‘ç»œçŽ¯å¢ƒã€‚
 
-	socket¸ÅÄî¡£ BS¡¢CSÉè¼ÆÄ£Ê½¡£
+	socketæ¦‚å¿µã€‚ BSã€CSè®¾è®¡æ¨¡å¼ã€‚
 
-	TCP-CSÍ¨ÐÅ´úÂëÊµÏÖ¡£ ¡ª¡ª ²¢·¢°æ¡£
+	TCP-CSé€šä¿¡ä»£ç å®žçŽ°ã€‚ â€”â€” å¹¶å‘ç‰ˆã€‚
 
-	TCPÍ¨ÐÅ¹ý³Ì£º 3´ÎÎÕÊÖ¡¢4´Î»ÓÊÖ¡£ ¡ª¡ª »­Í¼½²½â
+	TCPé€šä¿¡è¿‡ç¨‹ï¼š 3æ¬¡æ¡æ‰‹ã€4æ¬¡æŒ¥æ‰‹ã€‚ â€”â€” ç”»å›¾è®²è§£
 
-	UDPÍ¨ÐÅ£ºCSÍ¨ÐÅ´úÂëÊµÏÖ¡£¡ª¡ª²¢·¢°æ¡£
+	UDPé€šä¿¡ï¼šCSé€šä¿¡ä»£ç å®žçŽ°ã€‚â€”â€”å¹¶å‘ç‰ˆã€‚
 
-	UDP Óë TCPµÄÇø±ð£ºÓÅÈ±µã¡ª¡ªÊ¹ÓÃ³¡¾°¡£
+	UDP ä¸Ž TCPçš„åŒºåˆ«ï¼šä¼˜ç¼ºç‚¹â€”â€”ä½¿ç”¨åœºæ™¯ã€‚
 
-	ÍøÂçÎÄ¼þ´«Êä£º ´óÎÄ¼þ¿½±´ + TCP-CS
+	ç½‘ç»œæ–‡ä»¶ä¼ è¾“ï¼š å¤§æ–‡ä»¶æ‹·è´ + TCP-CS
 
-	²¢·¢ÁÄÌìÊÒ£º ¡ª¡ª ÒÔÇ°ÖªÊ¶µÄ¼¯ºÏ¡££¨csÍ¨ÐÅ¡¢channel¡¢goroutine¡¢map¡¢ÇÐÆ¬¡¢½á¹¹Ìå¡¢select £© ¡ª¡ª Îñ±ØÊµÏÖ¡£
+	å¹¶å‘èŠå¤©å®¤ï¼š â€”â€” ä»¥å‰çŸ¥è¯†çš„é›†åˆã€‚ï¼ˆcsé€šä¿¡ã€channelã€goroutineã€mapã€åˆ‡ç‰‡ã€ç»“æž„ä½“ã€select ï¼‰ â€”â€” åŠ¡å¿…å®žçŽ°ã€‚
 
-HttP±à³Ì£º
+HttPç¼–ç¨‹ï¼š
 
-	web·þÎñÆ÷¹¤×÷·½·¨£º DNS·þÎñÆ÷¡¢Http¡¢URL
+	webæœåŠ¡å™¨å·¥ä½œæ–¹æ³•ï¼š DNSæœåŠ¡å™¨ã€Httpã€URL
 
-	httpÇëÇóÐ­Òé»ù±¾¸ñÊ½¡£
+	httpè¯·æ±‚åè®®åŸºæœ¬æ ¼å¼ã€‚
 
-	httpÓ¦´ðÐ­Òé»ù±¾¸ñÊ½¡£
+	httpåº”ç­”åè®®åŸºæœ¬æ ¼å¼ã€‚
 	
-	Goº¯Êý£¬ÊµÏÖhttp Web·þÎñÆ÷¡£	Ä£Äâ¿Í»§¶Ë¡£
+	Goå‡½æ•°ï¼Œå®žçŽ°http WebæœåŠ¡å™¨ã€‚	æ¨¡æ‹Ÿå®¢æˆ·ç«¯ã€‚
 
-ÅÀ³æ¿ª·¢£º
+çˆ¬è™«å¼€å‘ï¼š
 
-	ÅÀ³æ¹¤×÷Â·³Ì£º 4²½¡£
+	çˆ¬è™«å·¥ä½œè·¯ç¨‹ï¼š 4æ­¥ã€‚
 
-	ºáÏò¡¢×ÝÏòÅÀÈ¡¡£
+	æ¨ªå‘ã€çºµå‘çˆ¬å–ã€‚
 
-	ÕýÔò±í´ïÊ½¡£
+	æ­£åˆ™è¡¨è¾¾å¼ã€‚
 
-	°Ù¶ÈÌù°É¡¢¶Î×Ó£¨Åõ¸¹Íø£©¡¢¶¹°êµçÓ°¡¢¶·Óã¡£
+	ç™¾åº¦è´´å§ã€æ®µå­ï¼ˆæ§è…¹ç½‘ï¼‰ã€è±†ç“£ç”µå½±ã€æ–—é±¼ã€‚
 
 	
 	

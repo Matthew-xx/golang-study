@@ -1,166 +1,166 @@
 
-Ð­Òé£º Ò»×é¹æÔò¡£ÒªÇóÊ¹ÓÃÐ­ÒéµÄË«·½£¬±ØÐëÑÏ¸ñ×ñÊØÐ­ÒéÄÚÈÝ¡£
+åè®®ï¼š ä¸€ç»„è§„åˆ™ã€‚è¦æ±‚ä½¿ç”¨åè®®çš„åŒæ–¹ï¼Œå¿…é¡»ä¸¥æ ¼éµå®ˆåè®®å†…å®¹ã€‚
 
-ÍøÂç·Ö²ã¼Ü¹¹£º
+ç½‘ç»œåˆ†å±‚æž¶æž„ï¼š
 
-	OSIÆß²ãÄ£ÐÍ½á¹¹Ìå£º Îï¡¢Êý¡¢Íø¡¢´«¡¢»á¡¢±í¡¢Ó¦
+	OSIä¸ƒå±‚æ¨¡åž‹ç»“æž„ä½“ï¼š ç‰©ã€æ•°ã€ç½‘ã€ä¼ ã€ä¼šã€è¡¨ã€åº”
 
-	TCP/IP ËÄ²ãÄ£ÐÍ£ºÊý¡¢Íø¡¢´«¡¢Ó¦
+	TCP/IP å››å±‚æ¨¡åž‹ï¼šæ•°ã€ç½‘ã€ä¼ ã€åº”
 
-¸÷²ã¹¦ÄÜ£º
-	Á´Â·²ã£º 	ARP
+å„å±‚åŠŸèƒ½ï¼š
+	é“¾è·¯å±‚ï¼š 	ARP
 
-		Ô´mac ¡ª¡ª Ä¿±êmac
+		æºmac â€”â€” ç›®æ ‡mac
 
-		ARP Ð­Òé×÷ÓÃ£º ½èÖú IP »ñÈ¡ mac µØÖ·¡£
+		ARP åè®®ä½œç”¨ï¼š å€ŸåŠ© IP èŽ·å– mac åœ°å€ã€‚
 
-	ÍøÂç²ã£º   IP
+	ç½‘ç»œå±‚ï¼š   IP
 
-		Ô´IP ¡ª¡ª Ä¿±êIP
+		æºIP â€”â€” ç›®æ ‡IP
 		
-		IPÐ­ÒéµÄ×÷ÓÃ£º ÔÚ ÍøÂç»·¾³ÖÐÎ¨Ò»±êÊ¶Ò»Ì¨Ö÷»ú¡£
+		IPåè®®çš„ä½œç”¨ï¼š åœ¨ ç½‘ç»œçŽ¯å¢ƒä¸­å”¯ä¸€æ ‡è¯†ä¸€å°ä¸»æœºã€‚
 		
-		IPµØÖ·±¾ÖÊ£º2½øÖÆÊý¡£¡ª¡ª µã·ÖÊ®½øÖÆ IPµØÖ· £¨string£©
+		IPåœ°å€æœ¬è´¨ï¼š2è¿›åˆ¶æ•°ã€‚â€”â€” ç‚¹åˆ†åè¿›åˆ¶ IPåœ°å€ ï¼ˆstringï¼‰
 
-	´«Êä²ã£º   TCP / UDP 
+	ä¼ è¾“å±‚ï¼š   TCP / UDP 
 
-		port ¡ª¡ª ÔÚ Ò»Ì¨Ö÷»úÉÏÎ¨Ò»±êÊ¶Ò»¸ö½ø³Ì¡£
+		port â€”â€” åœ¨ ä¸€å°ä¸»æœºä¸Šå”¯ä¸€æ ‡è¯†ä¸€ä¸ªè¿›ç¨‹ã€‚
 
-	Ó¦ÓÃ²ã£º	ftp¡¢http¡¢×Ô¶¨Òå
+	åº”ç”¨å±‚ï¼š	ftpã€httpã€è‡ªå®šä¹‰
 
-		¶ÔÊý¾Ý½øÐÐ·â×°¡£ ½â·â×°¡£
+		å¯¹æ•°æ®è¿›è¡Œå°è£…ã€‚ è§£å°è£…ã€‚
 
-Êý¾ÝÍ¨ÐÅ¹ý³Ì£º
+æ•°æ®é€šä¿¡è¿‡ç¨‹ï¼š
 
-	·â×°£º Ó¦ÓÃ²ã ¡ª¡ª ´«Êä²ã ¡ª¡ª ÍøÂç²ã ¡ª¡ª Á´Â·²ã	¡£ Ã»ÓÐ¾­¹ý·â×°µÄÊý¾Ý£¬²»ÄÜÔÚÍøÂç»·¾³ÖÐ´«µÝ¡£
+	å°è£…ï¼š åº”ç”¨å±‚ â€”â€” ä¼ è¾“å±‚ â€”â€” ç½‘ç»œå±‚ â€”â€” é“¾è·¯å±‚	ã€‚ æ²¡æœ‰ç»è¿‡å°è£…çš„æ•°æ®ï¼Œä¸èƒ½åœ¨ç½‘ç»œçŽ¯å¢ƒä¸­ä¼ é€’ã€‚
 
-	½â·â×° £º Á´Â·²ã ¡ª¡ª ÍøÂç²ã ¡ª¡ª ´«Êä²ã ¡ª¡ª Ó¦ÓÃ²ã
+	è§£å°è£… ï¼š é“¾è·¯å±‚ â€”â€” ç½‘ç»œå±‚ â€”â€” ä¼ è¾“å±‚ â€”â€” åº”ç”¨å±‚
 
-×Ü½áÍ¨ÐÅ¹ý³Ì£º
+æ€»ç»“é€šä¿¡è¿‡ç¨‹ï¼š
 
-	1. macµØÖ·£¨²»ÐèÒªÓÃ»§Ö¸¶¨£©		(ARP Ð­Òé)Ip ¡ª¡ª> mac
+	1. macåœ°å€ï¼ˆä¸éœ€è¦ç”¨æˆ·æŒ‡å®šï¼‰		(ARP åè®®)Ip â€”â€”> mac
 
-	2. IP µØÖ· £¨ÐèÒªÓÃ»§Ö¸¶¨£©	¡ª¡ª È·¶¨Ö÷»ú
+	2. IP åœ°å€ ï¼ˆéœ€è¦ç”¨æˆ·æŒ‡å®šï¼‰	â€”â€” ç¡®å®šä¸»æœº
 
-	3. port ¶Ë¿ÚºÅ £¨ÐèÒªÓÃ»§Ö¸¶¨£©	¡ª¡ª È·¶¨³ÌÐò
+	3. port ç«¯å£å· ï¼ˆéœ€è¦ç”¨æˆ·æŒ‡å®šï¼‰	â€”â€” ç¡®å®šç¨‹åº
 
-		1. ²»ÄÜÊ¹ÓÃÏµÍ³Õ¼ÓÃµÄÄ¬ÈÏ¶Ë¿Ú¡£	5000+ ¶Ë¿ÚÎÒÃÇÊ¹ÓÃ £¨8080£©
+		1. ä¸èƒ½ä½¿ç”¨ç³»ç»Ÿå ç”¨çš„é»˜è®¤ç«¯å£ã€‚	5000+ ç«¯å£æˆ‘ä»¬ä½¿ç”¨ ï¼ˆ8080ï¼‰
 
-		2. 65535Îª¶Ë¿ÚÉÏÏÞ¡£ 
+		2. 65535ä¸ºç«¯å£ä¸Šé™ã€‚ 
 
-socket£º   Ì×½Ó×Ö¡£
+socketï¼š   å¥—æŽ¥å­—ã€‚
 
-	ÍøÂçÍ¨ÐÅ¹ý³ÌÖÐ£¬socket Ò»¶¨ÊÇ³É¶Ô³öÏÖµÄ¡£
+	ç½‘ç»œé€šä¿¡è¿‡ç¨‹ä¸­ï¼Œsocket ä¸€å®šæ˜¯æˆå¯¹å‡ºçŽ°çš„ã€‚
 
 
-ÍøÂçÓ¦ÓÃÉè¼ÆÄ£Ê½£º
+ç½‘ç»œåº”ç”¨è®¾è®¡æ¨¡å¼ï¼š
 
 	C/S:
-		ÓÅµã£ºÊý¾Ý´«ÊäÐ§ÂÊ¸ß¡¢Ð­ÒéÑ¡ÔñÁé»î
+		ä¼˜ç‚¹ï¼šæ•°æ®ä¼ è¾“æ•ˆçŽ‡é«˜ã€åè®®é€‰æ‹©çµæ´»
 
-		È±µã£º¹¤×÷Á¿´ó¡¢°²È«ÐÔ¹¹³ÉÍþÐ²
+		ç¼ºç‚¹ï¼šå·¥ä½œé‡å¤§ã€å®‰å…¨æ€§æž„æˆå¨èƒ
 
 	B/S:
-		ÓÅµã£º¿ª·¢¹¤×÷½ÏÐ¡¡¢²»ÊÜÆ½Ì¨ÏÞÖÆ¡¢°²È«ÍþÐ²Ð¡
+		ä¼˜ç‚¹ï¼šå¼€å‘å·¥ä½œè¾ƒå°ã€ä¸å—å¹³å°é™åˆ¶ã€å®‰å…¨å¨èƒå°
 
-		È±µã£º»º´æÊý¾Ý²î¡¢Ð­ÒéÑ¡Ôñ²»Áé»î¡¢
+		ç¼ºç‚¹ï¼šç¼“å­˜æ•°æ®å·®ã€åè®®é€‰æ‹©ä¸çµæ´»ã€
 
-TCP-CS·þÎñÆ÷£º
+TCP-CSæœåŠ¡å™¨ï¼š
 
-	1.  ´´½¨¼àÌýsocket  listener := net.Listen("TCP", "IP+port")	IP+port	¡ª¡ª ·þÎñÆ÷×Ô¼ºµÄIP ºÍ port
+	1.  åˆ›å»ºç›‘å¬socket  listener := net.Listen("TCP", "IP+port")	IP+port	â€”â€” æœåŠ¡å™¨è‡ªå·±çš„IP å’Œ port
 
-	2.  Æô¶¯¼àÌý  conn := listener.Accept()  conn ÓÃÓÚ Í¨ÐÅµÄ socket
+	2.  å¯åŠ¨ç›‘å¬  conn := listener.Accept()  conn ç”¨äºŽ é€šä¿¡çš„ socket
 
 	3.  conn.Read()  
 
-	4.  ´¦ÀíÊ¹ÓÃ Êý¾Ý
+	4.  å¤„ç†ä½¿ç”¨ æ•°æ®
 
 	5.  conn.Write()
 
-	6.  ¹Ø±Õ  listener¡¢conn
+	6.  å…³é—­  listenerã€conn
 		
-nc¹¤¾ß»·¾³±äÁ¿ÅäÖÃ¡£
+ncå·¥å…·çŽ¯å¢ƒå˜é‡é…ç½®ã€‚
 
-	1. ½âÑ¹ netcat-win32-1.12.zip ÎÄ¼þ µ½Ö¸¶¨Ä¿Â¼
+	1. è§£åŽ‹ netcat-win32-1.12.zip æ–‡ä»¶ åˆ°æŒ‡å®šç›®å½•
 
-	2. ¿½±´ ½âÑ¹ºóÄ¿Â¼£¬±£´æµ½»·¾³±äÁ¿£º 
+	2. æ‹·è´ è§£åŽ‹åŽç›®å½•ï¼Œä¿å­˜åˆ°çŽ¯å¢ƒå˜é‡ï¼š 
 
-		·½·¨£ºÎÒµÄµçÄÔ-->ÊôÐÔ-->¸ß¼¶ÏµÍ³ÉèÖÃ-->»·¾³±äÁ¿-->ÏµÍ³±äÁ¿ÖÐÕÒ¡°path¡±-->Ë«»÷Ëü-->ÐÂ½¨-->Õ³Ìù
+		æ–¹æ³•ï¼šæˆ‘çš„ç”µè„‘-->å±žæ€§-->é«˜çº§ç³»ç»Ÿè®¾ç½®-->çŽ¯å¢ƒå˜é‡-->ç³»ç»Ÿå˜é‡ä¸­æ‰¾â€œpathâ€-->åŒå‡»å®ƒ-->æ–°å»º-->ç²˜è´´
 
-	3. Æô¶¯ cmd Ö´ÐÐ nc ÃüÁî ³äµ±¿Í»§¶Ë²âÊÔ
+	3. å¯åŠ¨ cmd æ‰§è¡Œ nc å‘½ä»¤ å……å½“å®¢æˆ·ç«¯æµ‹è¯•
 
-	4. nc 127.0.01 8000 £¨×¢Òâ IP ºÍ ¶Ë¿ÚÖ®¼äÊÇ¡°¿Õ¸ñ¡±£©
+	4. nc 127.0.01 8000 ï¼ˆæ³¨æ„ IP å’Œ ç«¯å£ä¹‹é—´æ˜¯â€œç©ºæ ¼â€ï¼‰
 
-	5. ÊäÈë hello socket¡£ ·þÎñÆ÷Ó¦¸ÃÄÜ¶Áµ½²¢Ïò·þÎñÆ÷µÄÆÁÄ»´òÓ¡ ¡°hello socket¡±
+	5. è¾“å…¥ hello socketã€‚ æœåŠ¡å™¨åº”è¯¥èƒ½è¯»åˆ°å¹¶å‘æœåŠ¡å™¨çš„å±å¹•æ‰“å° â€œhello socketâ€
 
-TCP-CS¿Í»§¶Ë£º
+TCP-CSå®¢æˆ·ç«¯ï¼š
 
-	1.  conn, err := net.Dial("TCP", ·þÎñÆ÷µÄIP+port)
+	1.  conn, err := net.Dial("TCP", æœåŠ¡å™¨çš„IP+port)
 
-	2.  Ð´Êý¾Ý¸ø ·þÎñÆ÷ conn.Write()
+	2.  å†™æ•°æ®ç»™ æœåŠ¡å™¨ conn.Write()
 
-	3.  ¶ÁÈ¡·þÎñÆ÷»Ø·¢µÄ Êý¾Ý conn.Read()
+	3.  è¯»å–æœåŠ¡å™¨å›žå‘çš„ æ•°æ® conn.Read()
 
 	4.  conn.Close()
 
-TCP-CS²¢·¢·þÎñÆ÷£º
+TCP-CSå¹¶å‘æœåŠ¡å™¨ï¼š
 
-	1.  ´´½¨ ¼àÌýÌ×½Ó×Ö listener := net.Listen("tcp"£¬ ·þÎñÆ÷µÄIP+port)		// tcp ²»ÄÜ´óÐ´
+	1.  åˆ›å»º ç›‘å¬å¥—æŽ¥å­— listener := net.Listen("tcp"ï¼Œ æœåŠ¡å™¨çš„IP+port)		// tcp ä¸èƒ½å¤§å†™
 
 	2.  defer listener.Close()
 
-	3.  for Ñ­»· ×èÈû¼àÌý ¿Í»§¶ËÁ¬½ÓÊÂ¼þ 	conn := listener.Accept()
+	3.  for å¾ªçŽ¯ é˜»å¡žç›‘å¬ å®¢æˆ·ç«¯è¿žæŽ¥äº‹ä»¶ 	conn := listener.Accept()
 
-	4. ´´½¨ go³Ì ¶ÔÓ¦Ã¿Ò»¸ö ¿Í»§¶Ë½øÐÐÊý¾ÝÍ¨ÐÅ	go HandlerConnet()
+	4. åˆ›å»º goç¨‹ å¯¹åº”æ¯ä¸€ä¸ª å®¢æˆ·ç«¯è¿›è¡Œæ•°æ®é€šä¿¡	go HandlerConnet()
 
-	5. ÊµÏÖ HandlerConnet(conn net.Conn) 
+	5. å®žçŽ° HandlerConnet(conn net.Conn) 
 
 		1) defer conn.Close()
 
-		2) »ñÈ¡³É¹¦Á¬½ÓµÄ¿Í»§¶Ë Addr 		conn.RemoteAddr()
+		2) èŽ·å–æˆåŠŸè¿žæŽ¥çš„å®¢æˆ·ç«¯ Addr 		conn.RemoteAddr()
 
-		3) for Ñ­»· ¶ÁÈ¡ ¿Í»§¶Ë·¢ËÍÊý¾Ý		conn.Read(buf)
+		3) for å¾ªçŽ¯ è¯»å– å®¢æˆ·ç«¯å‘é€æ•°æ®		conn.Read(buf)
 
-		4) ´¦ÀíÊý¾Ý Ð¡ ¡ª¡ª ´ó	strings.ToUpper()
+		4) å¤„ç†æ•°æ® å° â€”â€” å¤§	strings.ToUpper()
 
-		5£©»ØÐ´×ª»¯ºóµÄÊý¾Ý		conn.Write(buf[:n]) 
+		5ï¼‰å›žå†™è½¬åŒ–åŽçš„æ•°æ®		conn.Write(buf[:n]) 
 
-·þÎñÆ÷ÅÐ¶Ï¹Ø±Õ£º
+æœåŠ¡å™¨åˆ¤æ–­å…³é—­ï¼š
 
-	Read¶Á¿Í»§¶Ë/·þÎñÆ÷£¬·µ»Ø 0  ¡ª¡ª  ¶Ô¶Ë¹Ø±Õ£¡
+	Readè¯»å®¢æˆ·ç«¯/æœåŠ¡å™¨ï¼Œè¿”å›ž 0  â€”â€”  å¯¹ç«¯å…³é—­ï¼
 
-	nc ÃüÁî·¢ËÍÊý¾ÝÊ±£¬Ä¬ÈÏÔÚ½áÎ²×Ô´ø¡®\n¡¯
+	nc å‘½ä»¤å‘é€æ•°æ®æ—¶ï¼Œé»˜è®¤åœ¨ç»“å°¾è‡ªå¸¦â€˜\nâ€™
 	
-TCP-CS²¢·¢¿Í»§¶Ë£º	
+TCP-CSå¹¶å‘å®¢æˆ·ç«¯ï¼š	
 
-	1. ÄäÃû go ³Ì £¬ »ñÈ¡ ¼üÅÌÊäÈë£¬ Ð´¸ø·þÎñÆ÷
+	1. åŒ¿å go ç¨‹ ï¼Œ èŽ·å– é”®ç›˜è¾“å…¥ï¼Œ å†™ç»™æœåŠ¡å™¨
 
-	2. for Ñ­»·¶ÁÈ¡·þÎñÆ÷»Ø·¢Êý¾Ý
+	2. for å¾ªçŽ¯è¯»å–æœåŠ¡å™¨å›žå‘æ•°æ®
 
-	·¢ËÍÊý¾ÝÊ±£¬Ä¬ÈÏÔÚ½áÎ²×Ô´ø¡® \r\n ¡¯
+	å‘é€æ•°æ®æ—¶ï¼Œé»˜è®¤åœ¨ç»“å°¾è‡ªå¸¦â€˜ \r\n â€™
 	
-TCPÍ¨ÐÅ¹ý³Ì£º
+TCPé€šä¿¡è¿‡ç¨‹ï¼š
 
-	Èý´ÎÎÕÊÖ£º
+	ä¸‰æ¬¡æ¡æ‰‹ï¼š
 
-		1. Ö÷¶¯·¢ÆðÇëÇó¶Ë£¬ ·¢ËÍ SYN 
+		1. ä¸»åŠ¨å‘èµ·è¯·æ±‚ç«¯ï¼Œ å‘é€ SYN 
 
-		2. ±»¶¯½¨Á¢Á¬½ÓÇëÇó¶Ë £¬ Ó¦´ðACK Í¬Ê± ·¢ËÍ SYN
+		2. è¢«åŠ¨å»ºç«‹è¿žæŽ¥è¯·æ±‚ç«¯ ï¼Œ åº”ç­”ACK åŒæ—¶ å‘é€ SYN
 
-		3. Ö÷¶¯·¢ÆðÇëÇó¶Ë£¬·¢ËÍÓ¦´ð ACK
+		3. ä¸»åŠ¨å‘èµ·è¯·æ±‚ç«¯ï¼Œå‘é€åº”ç­” ACK
 
-		±êÖ¾ TCP Èý´ÎÎÕÊÖ½¨Á¢Íê³É¡£ ¡ª¡ª server£ºAccept() ·µ»Ø ¡£ 	¡ª¡ª client£ºDial() ·µ»Ø¡£
+		æ ‡å¿— TCP ä¸‰æ¬¡æ¡æ‰‹å»ºç«‹å®Œæˆã€‚ â€”â€” serverï¼šAccept() è¿”å›ž ã€‚ 	â€”â€” clientï¼šDial() è¿”å›žã€‚
 
-	ËÄ´Î»ÓÊÖ£º
+	å››æ¬¡æŒ¥æ‰‹ï¼š
 
-		1. Ö÷¶¯¹Ø±ÕÁ¬½ÓÇëÇó¶Ë£¬ ·¢ËÍ FIN
+		1. ä¸»åŠ¨å…³é—­è¿žæŽ¥è¯·æ±‚ç«¯ï¼Œ å‘é€ FIN
 
-		2. ±»¶¯¹Ø±ÕÁ¬½ÓÇëÇó¶Ë £¬Ó¦´ð ACK
-						±êÖ¾¡£°ë¹Ø±ÕÍê³É¡£ ¡ª¡ª close()
-		3. ±»¶¯¹Ø±ÕÁ¬½ÓÇëÇó¶Ë £¬·¢ËÍ FIN
+		2. è¢«åŠ¨å…³é—­è¿žæŽ¥è¯·æ±‚ç«¯ ï¼Œåº”ç­” ACK
+						æ ‡å¿—ã€‚åŠå…³é—­å®Œæˆã€‚ â€”â€” close()
+		3. è¢«åŠ¨å…³é—­è¿žæŽ¥è¯·æ±‚ç«¯ ï¼Œå‘é€ FIN
 
-		4.  Ö÷¶¯¹Ø±ÕÁ¬½ÓÇëÇó¶Ë£¬Ó¦´ð ACK
-						±êÖ¾¡£ËÄ´Î»ÓÊÖ½¨Á¢Íê³É¡£ ¡ª¡ª close().
+		4.  ä¸»åŠ¨å…³é—­è¿žæŽ¥è¯·æ±‚ç«¯ï¼Œåº”ç­” ACK
+						æ ‡å¿—ã€‚å››æ¬¡æŒ¥æ‰‹å»ºç«‹å®Œæˆã€‚ â€”â€” close().
 						
 
 
