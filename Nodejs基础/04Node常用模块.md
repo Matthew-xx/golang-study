@@ -121,3 +121,17 @@ promise可以对异步回调代码进行包装，把原来的一个回调拆成2
         }
     }
     asyncDemo()
+
+### 终极使用方法
+
+    1. 先使用promise包装，可使用util.promisify包
+    2. 使用async/await编写同步风格的异步代码
+
+## http模块
+
+本模块包含了httpserver和httpclient
+
+    http.createServer 创建server对象
+    http.get:执行httpget请求
+
+ 
