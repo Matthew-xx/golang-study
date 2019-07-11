@@ -134,4 +134,19 @@ promise可以对异步回调代码进行包装，把原来的一个回调拆成2
     http.createServer 创建server对象
     http.get:执行httpget请求
 
- 
+## 模块导出
+
+当用户自己写了一个模块（XX.js）后，如果需要在其他文件中使用，并不能直接require到
+需要用户自定义的的模块下加入以下代码
+
+    modle.exports = funcName//只导出一个方法，注意是方法名
+或
+
+    modle.exports = {
+        name : varName,
+        add:funcName,
+        multi //==multi:multi
+    }
+    //同时导出多个时，使用对象包裹起来，使用时通过点调用名字
+
+另外注意require是使用相对路径,如./xxx/xx
