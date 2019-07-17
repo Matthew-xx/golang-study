@@ -120,5 +120,5 @@ delete 用来删除任何变量，但不是真删除，是重置为默认值。
 
 - delete不定长数组，删除所有元素，长度置为0
 - delete定长数组，重置所有索引值
-- delete mapping类型，什么都不发生
+- delete 不能删除mapping类型，报错
 - delete mapping类型中的一个key，删除与该key相关联的值。
