@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="js/react.development.js"></script>
+    <script src="js/react-dom.development.js"></script>
+    <script src="js/babel.min.js"></script>
+</head>
+<body>
+    <div id="root"></div>
+     <!-- 告知浏览器，此处js代码为非标准js -->
+    <script type="text/babel"> 
+        class Increase extends React.Component{
+            // 使用构造函数初始化属性值
+            constructor(props){
+                super(props);
+                // state里面放 键值对，存放对应的属性与值
+                this.state = {iNum:10}
+            }
+            // 递增方法
+            fnAdd(){
+                // state内的属性是只读的，只能拿出数据，不能直接通过state修改数据。
+                // this.state.iNum += 1;错误
+                // 从需要调用setState()
+                // this.setState({iNum:this.state.iNum+1});//成功，但不推荐
+                this.setState(prevState=>{
+                    return {iNum:prevState.iNum+1};
+                })
+            }
+
+            render(){
+                return(
+                    <div>
+                        <p>{this.state.iNum}</p>
+                        <input type="button" value="递增" onClick={this.fnAdd.bind(this)}/>
+                    </div>
+                );
+            }
+        }    
+        ReactDOM.render(
+            <Increase />,
+            document.getElementById('root')
+        )
+
+        
+    </script>
+</body>
+</html>
