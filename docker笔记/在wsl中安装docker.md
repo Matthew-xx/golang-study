@@ -65,7 +65,7 @@ Microsoft Store==>搜索Linux==>安装Ubuntu18.04
 
 每次打开wsl需要重新启动
 
-    sudo apt update
-    sudo apt install docker.io
+    sudo cgroupfs-mount
+    sudo service docker start
 
 如果不想每次都书这个命令，可自己写个shell脚本，并设置，管理员权限开机启动
