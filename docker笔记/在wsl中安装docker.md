@@ -19,13 +19,31 @@ Microsoft Store==>搜索Linux==>安装Ubuntu18.04
 启动WSL控制台，执行以下指令
 
     sudo apt update
-    sudo apt install docker.io
+
+安装17.09版本的docker ，经测试其他版本的会遇到问题。
+
+    sudo apt install libltdl7 cgroupfs-mount
+    curl -O https://mirrors.tuna.tsinghua.edu.cn/docker-ce/linux/debian/dists/stretch/pool/stable/amd64/docker-ce_17.09.1~ce-0~debian_amd64.deb
+    sudo dpkg -i docker-ce_17.09.1~ce-0~debian_amd64.deb
     sudo usermod -aG docker $USER
+
 随后再以管理员启动WSL控制台，执行
 
     sudo cgroupfs-mount
     sudo service docker start
     sudo chmod -R 777 /var/run/docker.sock
+
+## 安装docker-compose
+
+- 安装依赖工具
+
+    $ sudo apt-get install python-pip -y
+- 安装编排工具
+
+    $ sudo pip install docker-compose
+- 查看版本
+
+    $ sudo docker-compose version
 
 ## 测试安装结果
 
