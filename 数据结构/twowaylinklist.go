@@ -67,7 +67,7 @@ func (node *TwoWayLinkNode) Length() int {
 
 // 插入数据，按照位置插入
 func (node *TwoWayLinkNode) InsertByIndex(index int, data interface{}) {
-	if node == nil || index < 0 || data == nil || index > node.Length()-1 {
+	if node == nil || index < 0 || data == nil || index > node.Length() {
 		return
 	}
 	// 先生命一个变量用来保存当前节点的上一节点
@@ -90,7 +90,7 @@ func (node *TwoWayLinkNode) InsertByIndex(index int, data interface{}) {
 
 // 删除数据，按照位置删除
 func (node *TwoWayLinkNode) DeleteByIndex(index int) {
-	if node == nil || index < 0 || index > node.Length()-1 {
+	if node == nil || index < 0 || index > node.Length() {
 		return
 	}
 	// 先生命一个变量用来保存当前节点的上一节点

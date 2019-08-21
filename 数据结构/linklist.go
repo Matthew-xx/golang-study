@@ -1,5 +1,7 @@
 package main
 
+// 注意头结点的特殊性，头结点有指代整个链表的作用，但一般不参与存储数据
+// 一般统计链表长度时，不算头结点。但是算节点下标（位置）时，算上头结点
 import (
 	"fmt"
 	"reflect"
@@ -93,8 +95,8 @@ func (node *LinkNode) InsertByTail(data interface{}) {
 
 // 插入数据，按照位置（中间插）
 func (node *LinkNode) InsertByIndex(index int, data interface{}) {
-	// 校验数据，不能为空，下标不能为负数，最大不能超过链表的长度-1
-	if node == nil || data == nil || index < 0 || index > node.Length()-1 {
+	// 校验数据，不能为空，下标不能为负数，最大不能超过链表的长度
+	if node == nil || data == nil || index < 0 || index > node.Length() {
 		return
 	}
 	// 将next指针指向对应的节点

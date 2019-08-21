@@ -36,7 +36,7 @@ func (node *CircularLinkList) Print() {
 	for {
 		node = node.Next
 		if node.Data != nil {
-			fmt.Println(node.Data)
+			fmt.Print(node.Data, " ")
 		}
 		// 当下一个节点又是起始位置时，中断循环
 		if start == node.Next {
@@ -140,4 +140,20 @@ func main() {
 	fmt.Println("删除节点")
 	list3.Delete(1)
 	list3.Print()
+
+	// 约瑟夫环的实现
+	list3.Create("01", "02", "03", "04", "05", "06", "07", "08", "09", 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32)
+	fmt.Println()
+	list3.Print()
+	fmt.Println()
+	i := 1
+	for list3.Length() > 2 {
+		i += 3
+		if i > list3.Length() {
+			i = list3.Length() % 3
+		}
+		list3.Delete(i)
+		list3.Print()
+		fmt.Println()
+	}
 }
