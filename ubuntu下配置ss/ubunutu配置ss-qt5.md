@@ -33,3 +33,11 @@ genpac 的详细使用说明见 GitHub - Wiki：https://github.com/JinnLynn/GenP
 ## 或者使用在线pac
 
     https://raw.githubusercontent.com/petronny/gfwlist2pac/master/gfwlist.pac
+
+
+## bash shell走socks5代理
+
+bash上配置代理是export两个环境变量
+
+    export http_proxy=socks5://127.0.0.1:1080
+    export https_proxy=socks5://127.0.0.1:1080
