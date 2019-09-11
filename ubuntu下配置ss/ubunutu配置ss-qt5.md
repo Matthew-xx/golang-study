@@ -41,3 +41,7 @@ bash上配置代理是export两个环境变量
 
     export http_proxy=socks5://127.0.0.1:1080
     export https_proxy=socks5://127.0.0.1:1080
+
+## 某软件单独走代理如：VSCODE
+
+    code --https_proxy=socks5://127.0.0.1:1080 --http_proxy=socks5://127.0.0.1:1080
