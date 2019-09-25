@@ -21,7 +21,7 @@ func main() {
 	testA()
 	testB(30)
 	testC()
-	// defer testA()
-	// defer testB()
-	// defer testC()
+	defer testA()
+	defer testB(40)
+	defer testC()
 }

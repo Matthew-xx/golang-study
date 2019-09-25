@@ -9,8 +9,11 @@ type Person struct {
 }
 
 //实现打印方法
-func (p Person) PrintInfo() {
-	fmt.Printf("name=%v,sex=%c,age=%d", p.name, p.sex, p.age)
+// func (p Person) PrintInfo() {
+// 	fmt.Printf("name=%v,sex=%c,age=%d\n", p.name, p.sex, p.age)
+// }
+func (p *Person) PrintInfo2() {
+	fmt.Printf("name=%v,sex=%c,age=%d\n", p.name, p.sex, p.age)
 }
 
 type Student struct {
@@ -20,6 +23,15 @@ type Student struct {
 
 func main() {
 	s := Student{Person{"mike", 'm', 18}, 123}
-	s.PrintInfo()
-	s.Person.PrintInfo()
+	// s.PrintInfo()
+	// s.Person.PrintInfo()
+	s.PrintInfo2()
+
+	s.Person.PrintInfo2()
+
+	// (&s).PrintInfo()
+	// (&s).Person.PrintInfo()
+	(&s).PrintInfo2()
+	// (&s).Person.PrintInfo2()
+
 }

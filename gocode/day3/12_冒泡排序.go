@@ -22,5 +22,4 @@ func main() {
 		}
 	}
 	fmt.Println("排序后：\n", a)
-
 }
