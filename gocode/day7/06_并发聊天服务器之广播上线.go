@@ -24,7 +24,7 @@ var message chan string = make(chan string)
 
 func main() {
 	//设置监听器
-	listener, _ := net.Listen("tcp", ":3422")
+	listener, _ := net.Listen("tcp", ":2343")
 	defer listener.Close()
 
 	//管理各用户协程，只需启用一个，不需要时因通信会自动阻塞
@@ -72,10 +72,9 @@ func HandleConn(conn net.Conn) {
 //管理用户协程之间通信，依赖公共管道
 func Mannage() {
 	//初始化一个map
-	OnlinMap = make(map[string]Client)
+	// OnlinMap = make(map[string]Client)
 
 	//每当公用管道有数据时，故需要循环遍历等待数据，而不是一次性执行
-	//for {
 	for msg := range message {
 		//msg := <-message
 		//给所有用户发送这条数据,需range

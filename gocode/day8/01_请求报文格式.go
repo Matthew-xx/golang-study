@@ -17,7 +17,7 @@ func main() {
 		fmt.Println("err1=", err1)
 	}
 	defer conn.Close()
-	buf := make([]byte, 1024)
+	buf := make([]byte, 1024*4)
 	n, _ := conn.Read(buf)
 	fmt.Println(string(buf[:n]))
 }

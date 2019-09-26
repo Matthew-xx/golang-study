@@ -15,17 +15,17 @@ func HandConn(w http.ResponseWriter, r *http.Request) {
 
 }
 func main() {
-	//注册处理函数
-	http.HandleFunc("/", HandConn)
+	//注册处理函数,其实就是路由，但不是restful路由
+	http.HandleFunc("/go", HandConn)
 	//监听绑定
 	err := http.ListenAndServe(":8000", nil)
 	if err != nil {
 		return
 	}
-	req, err := http.NewRequest("GET", "http://example.com", nil)
-    // ...
-    req.Header.Add("User-Agent", "Gobook Custom User-Agent")
-    // ...
-    client := &http.Client{ //... }
-    resp, err := client.Do(req)
+	// req, err := http.NewRequest("GET", "http://example.com", nil)
+	// // ...
+	// req.Header.Add("User-Agent", "Gobook Custom User-Agent")
+	// // ...
+	// client := &http.Client{ //... }
+	// resp, err := client.Do(req)
 }

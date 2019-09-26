@@ -2,12 +2,13 @@ package main
 
 import (
 	"fmt"
+	"io"
 	"net/http"
 )
 
 func main() {
 	//r, err := http.Get("http://www.baidu.com")
-	r, err := http.Get("http://127.0.0.1:8000")
+	r, err := http.Get("http://127.0.0.1:8000/go")
 	if err != nil {
 		fmt.Println("err:", err)
 	}
@@ -18,12 +19,18 @@ func main() {
 	defer r.Body.Close()
 	var temp string
 	for {
-		n, err1 := r.Body.Read(buf)
-		if n == 0 {
-			fmt.Println("err1:", err1)
-			break
-		}
+		n, err := r.Body.Read(buf)
 		temp += string(buf[:n])
+		if err != nil {
+			if err == io.EOF {
+				fmt.Println("finished", n)
+				break
+			} else {
+				fmt.Println("err=", err)
+				break
+			}
+		}
+
 	}
 
 	fmt.Println(temp)
