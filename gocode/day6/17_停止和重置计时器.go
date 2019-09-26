@@ -12,6 +12,7 @@ func main() {
 		fmt.Println("时间到，子协程打印")
 	}()
 	timer.Stop() //被停止
+	// timer.Reset()
 	for {
 	}
 }

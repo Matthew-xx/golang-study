@@ -26,10 +26,10 @@ func main() {
 		if num, ok := <-ch; ok { //迭代管道，两个返回值：一个是取出的内容，另一个是关闭与否的判断
 			fmt.Printf("主协程取出数据[%d]管道<——，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
 		} else {
-			fmt.Println("管道已关闭，已关闭的管道永远取出：", num)
+			a := <-ch
+			fmt.Println("管道已关闭，已关闭的管道永远取出：", num, a)
 			break
 		}
-
 	}
 }
 

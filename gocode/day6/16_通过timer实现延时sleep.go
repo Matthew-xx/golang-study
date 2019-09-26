@@ -9,8 +9,8 @@ func main() {
 	//第一种方法：生产timer对象，返回值为结构体变量，需要调用结构体内channel发送出去
 	fmt.Println("开始计时")
 	timer := time.NewTimer(2 * time.Second)
-	<-timer.C
-	fmt.Println("两秒时间到")
+	// t :=
+	fmt.Println("两秒时间到", <-timer.C)
 	//第2种方法，直接使用sleep()
 	time.Sleep(2 * time.Second)
 	fmt.Println("又两秒时间到")

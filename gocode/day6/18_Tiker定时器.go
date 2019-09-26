@@ -11,8 +11,8 @@ func main() {
 	ticker := time.NewTicker(time.Second)
 	for {
 		i++
-		<-ticker.C
-		fmt.Println("i=", i)
+		t := <-ticker.C
+		fmt.Println("i=", i, t)
 		if i == 5 {
 			ticker.Stop() //停止计时并跳出循环
 			break

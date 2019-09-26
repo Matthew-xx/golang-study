@@ -19,7 +19,7 @@ func main() {
 	time.Sleep(time.Second * 2)
 	for i := 1; i <= 10; i++ {
 		num := <-ch
-		fmt.Printf("主协程取出数据[%d]管道<——，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
+		fmt.Printf("主协程取出数据[%d]<——管道，剩余数据个数：%d,容量%d\n", num, len(ch), cap(ch))
 
 	}
 }

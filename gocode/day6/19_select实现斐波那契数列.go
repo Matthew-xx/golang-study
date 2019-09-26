@@ -12,7 +12,9 @@ func fibonacci(numch chan<- int64, ch <-chan bool) {
 	for {
 		select {
 		case numch <- x: //注意冒号位置在最后面
-			x, y = y, x+y			close(numch)
+			x, y = y, x+y
+		case <-ch:
+			close(numch)
 			//	close(ch) err:cannot close receive-only channel,不能关闭只可接收数据的管道
 			return
 		}
@@ -37,7 +39,6 @@ func main() {
 		}
 		//发送结束信号
 		ch <- true //不一定非得是true只要写进去内容即可
-
 	}()
 
 }

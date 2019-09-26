@@ -8,10 +8,17 @@ func main() {
 		a    = iota
 		e
 
+		_
 		f
+		g = "a"
+		h
+		i = iota
+		j
 	)
-	const g = iota
-	h := 10
-	h++
-	fmt.Print(b, c, a, e, f, g, h)
+	const k = iota
+	// const l
+	const m = iota
+	// const n
+
+	fmt.Print(b, c, a, e, f, g, h, i, j, k, m)
 }

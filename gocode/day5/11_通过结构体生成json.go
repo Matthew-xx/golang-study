@@ -21,7 +21,7 @@ type IT struct {
 
 func main() {
 	it := IT{"heima", []string{"Go", "C++", "Python", "Test"}, true, 5465.45}
-	byte, err := json.Marshal(it)
+	// byte, err := json.Marshal(it)
 	byte, err := json.MarshalIndent(it, "", "  ")
 	//有缩进格式化编码,参数2为前缀符号（行首字符），参数3为缩进符号(行首，个数代表层级)
 	if err != nil {
