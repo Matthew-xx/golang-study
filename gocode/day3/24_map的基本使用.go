@@ -28,6 +28,10 @@ func main() {
 
 	fmt.Println(m3) //无序打印
 	fmt.Println(len(m3))
+	fmt.Println("获取一个不存在的key", m3[1111])
+	m4 := map[int]int{1: 1}
+	fmt.Println("获取一个不存在的key", m4[1111])
+
 	// 总结：
 	// make可指定开辟的内存个数，但不会被这个数字限制
 	// map是有长度的，长度就是键值对的个数。
