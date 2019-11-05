@@ -11,5 +11,7 @@ func main() {
 	r[1] = 'm'
 	s = string(r)
 	fmt.Println(s)
-
+	for v := range s {
+		fmt.Println("s:", v)
+	}
 }
